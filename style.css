@@ -444,13 +444,12 @@ em {
 }
 
 .about-photo {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: center top;
+  width: 75%;
+  height: auto;
   border-radius: var(--radius);
   border: 1px solid var(--card-border);
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
+  display: block;
 }
 
 .about-right {
