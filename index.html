@@ -23,6 +23,9 @@
       </ul>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
       <a href="#cta" class="btn-book magnetic-btn">Reach Out Now</a>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
@@ -221,7 +224,7 @@
 
           <div class="testimonial-card">
             <div class="result-badge">Reconnected with herself after a breakup</div>
-            <p class="quote">"A week after a really painful breakup, a friend sent me to Nancy. I didn't expect much — I was just going through the motions. She held space for me in a way that felt completely safe. I left feeling like I hadn't lost myself, I just needed reminding."</p>
+            <p class="quote">"A week after a really painful breakup, a friend sent me to Salvia. I didn't expect much — I was just going through the motions. She held space for me in a way that felt completely safe. I left feeling like I hadn't lost myself, I just needed reminding."</p>
             <div class="reviewer">
               <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
               <span class="name">— Amara S.</span>
@@ -248,9 +251,9 @@
 
         </div>
         <div class="carousel-controls">
-          <button class="carousel-btn" id="carouselPrev">&#8592;</button>
+          <button class="carousel-btn" id="carouselPrev" aria-label="Previous testimonial">&#8592;</button>
           <div class="carousel-dots" id="carouselDots"></div>
-          <button class="carousel-btn" id="carouselNext">&#8594;</button>
+          <button class="carousel-btn" id="carouselNext" aria-label="Next testimonial">&#8594;</button>
         </div>
       </div>
     </div>
@@ -304,7 +307,7 @@
 
         <div class="faq-item">
           <button class="faq-question">Can sessions be done remotely?</button>
-          <div class="faq-answer"><p>Yes — distance Reiki is just as effective as in-person. Energy isn't limited by location. Nancy offers both options depending on what works best for you.</p></div>
+          <div class="faq-answer"><p>Yes — distance Reiki is just as effective as in-person. Energy isn't limited by location. Salvia offers both options depending on what works best for you.</p></div>
         </div>
 
         <div class="faq-item">
@@ -345,6 +348,17 @@
       <p class="footer-disclaimer">Sessions are intended for spiritual support and personal wellness. They are not a substitute for medical or psychological treatment.</p>
     </div>
   </footer>
+
+  <!-- ─── MOBILE NAV OVERLAY ──────────────────────────────────── -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <ul class="mobile-nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#testimonials">Stories</a></li>
+      <li><a href="#cta" class="mobile-nav-cta">Reach Out Now</a></li>
+    </ul>
+  </div>
 
   <script src="utils.js" defer></script>
   <script src="app.js" defer></script>

@@ -112,8 +112,8 @@ function initHorizontalScroll() {
     scrollLeft = el.scrollLeft;
   });
 
-  el.addEventListener('mouseleave', () => { isDown = false; });
-  el.addEventListener('mouseup', () => { isDown = false; });
+  el.addEventListener('mouseleave', () => { isDown = false; el.classList.remove('grabbing'); });
+  el.addEventListener('mouseup', () => { isDown = false; el.classList.remove('grabbing'); });
 
   el.addEventListener('mousemove', (e) => {
     if (!isDown) return;
@@ -141,12 +141,49 @@ function initNavScroll() {
 // ─── FAQ ACCORDION ──────────────────────────────────────────────
 function initFAQ() {
   document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.setAttribute('aria-expanded', 'false');
     btn.addEventListener('click', () => {
       const item = btn.parentElement;
       const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-      if (!isOpen) item.classList.add('open');
+      document.querySelectorAll('.faq-item').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
     });
+  });
+}
+
+// ─── MOBILE NAV ─────────────────────────────────────────────────
+function initMobileNav() {
+  const hamburger = document.getElementById('navHamburger');
+  const overlay = document.getElementById('mobileNavOverlay');
+  if (!hamburger || !overlay) return;
+
+  function closeMenu() {
+    hamburger.classList.remove('open');
+    overlay.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = overlay.classList.contains('open');
+    if (isOpen) {
+      closeMenu();
+    } else {
+      hamburger.classList.add('open');
+      overlay.classList.add('open');
+      hamburger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    }
+  });
+
+  overlay.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', closeMenu);
   });
 }
 
@@ -155,9 +192,17 @@ function initThemeToggle() {
   const btn = document.getElementById('themeToggle');
   if (!btn) return;
 
+  const saved = storageGet('sl-theme');
+  if (saved === 'light') {
+    document.body.classList.add('light-mode');
+    btn.textContent = '🌙';
+  }
+
   btn.addEventListener('click', () => {
     document.body.classList.toggle('light-mode');
-    btn.textContent = document.body.classList.contains('light-mode') ? '🌙' : '☀️';
+    const isLight = document.body.classList.contains('light-mode');
+    btn.textContent = isLight ? '🌙' : '☀️';
+    storageSet('sl-theme', isLight ? 'light' : 'dark');
   });
 }
 
@@ -171,4 +216,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initNavScroll();
   initThemeToggle();
   initFAQ();
+  initMobileNav();
 });
