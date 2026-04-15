@@ -276,7 +276,8 @@ em {
     max-width: 320px;
     margin: 32px auto 0;
     display: block;
-    opacity: 0.75;
+    opacity: 0.9;
+    mix-blend-mode: normal;
   }
 }
 
