@@ -1217,7 +1217,7 @@ body.light-mode .about-img {
   .btn-book { display: none; }
   .nav-hamburger { display: flex; }
 
-  .hero { padding: 100px 20px 40px; flex-direction: column; }
+  .hero { padding: 100px 20px 40px; flex-direction: column; overflow: visible; justify-content: flex-start; }
 
   .services-grid { grid-template-columns: 1fr; }
 
