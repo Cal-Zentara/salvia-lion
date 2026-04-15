@@ -613,19 +613,26 @@ em {
 }
 
 .scent-pill {
-  padding: 8px 18px;
-  border: 1px solid var(--card-border);
+  padding: 10px 22px;
+  border: 1px solid rgba(255,255,255,0.12);
   border-radius: 999px;
   font-size: 0.9rem;
-  color: var(--text);
-  background: var(--card-bg);
-  cursor: default;
-  transition: border-color 0.2s, background 0.2s;
+  font-family: var(--font-body);
+  color: var(--text-muted);
+  background: transparent;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
 }
 
 .scent-pill:hover {
   border-color: var(--gold);
-  background: rgba(20, 184, 166, 0.1);
+  color: var(--text);
+}
+
+.scent-pill.active {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: rgba(20, 184, 166, 0.08);
 }
 
 .bath-salts-size {

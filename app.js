@@ -206,6 +206,17 @@ function initThemeToggle() {
   });
 }
 
+// ─── SCENT SELECTOR ─────────────────────────────────────────────
+function initScentSelector() {
+  const pills = document.querySelectorAll('.scent-pill');
+  pills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      pills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+    });
+  });
+}
+
 // ─── INIT ────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
@@ -217,4 +228,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initThemeToggle();
   initFAQ();
   initMobileNav();
+  initScentSelector();
 });
