@@ -614,19 +614,19 @@ em {
 
 .scent-pill {
   padding: 10px 22px;
-  border: 1px solid rgba(255,255,255,0.12);
+  border: 1px solid rgba(139, 92, 246, 0.35);
   border-radius: 999px;
   font-size: 0.9rem;
   font-family: var(--font-body);
-  color: var(--text-muted);
-  background: transparent;
+  color: var(--lavender);
+  background: rgba(139, 92, 246, 0.1);
   cursor: pointer;
   transition: border-color 0.2s, color 0.2s, background 0.2s;
 }
 
 .scent-pill:hover {
-  border-color: var(--gold);
-  color: var(--text);
+  border-color: rgba(139, 92, 246, 0.6);
+  background: rgba(139, 92, 246, 0.18);
 }
 
 .scent-pill.active {
