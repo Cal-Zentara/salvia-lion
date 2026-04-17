@@ -470,6 +470,10 @@ em {
 
 @media (max-width: 768px) {
   .about-inner { grid-template-columns: 1fr; gap: 32px; }
+  .about-why { flex-direction: column; gap: 20px; padding: 24px 20px; }
+  .about-why-left { flex: none; }
+  .about-why h3 { font-size: 1rem; margin-bottom: 8px; }
+  .about-quote { font-size: 1rem; }
 }
 
 /* ─── SERVICES ───────────────────────────────────────────────── */
@@ -686,6 +690,9 @@ em {
   .bath-salts-video {
     height: 300px;
   }
+  .quote { font-size: 0.92rem; line-height: 1.7; }
+  .testimonial-card { padding: 20px 18px; }
+  .result-badge { font-size: 0.7rem; }
 }
 
 /* ─── TESTIMONIALS ───────────────────────────────────────────── */
@@ -1225,14 +1232,44 @@ body.light-mode .about-img {
   .btn-book { display: none; }
   .nav-hamburger { display: flex; }
 
-  .hero { padding: 100px 20px 40px; flex-direction: column; overflow: visible; justify-content: flex-start; }
+  /* Hero */
+  .hero { padding: 90px 20px 36px; flex-direction: column; overflow: visible; justify-content: flex-start; }
+  .hero-sub { font-size: 1rem; }
+  .btn-primary.btn-large { padding: 14px 28px; font-size: 1rem; }
 
+  /* Section paddings — reduce from 70px */
+  .about { padding: 48px 0; }
+  .services { padding: 48px 0; }
+  .bath-salts { padding: 48px 0; }
+  .testimonials { padding: 48px 0; }
+  .how-it-works { padding: 48px 0; }
+  .faq { padding: 48px 0; }
+
+  /* Services */
   .services-grid { grid-template-columns: 1fr; }
+  .service-card { padding: 0 0 24px; }
+  .service-card h3 { font-size: 1.3rem; }
 
-  .testimonial-card { padding: 32px 24px; }
+  /* Testimonials */
+  .testimonial-card { padding: 20px 18px; }
+  .reviewer-photo { width: 80px; height: 96px; }
 
+  /* How it works */
   .steps-scroll { flex-wrap: nowrap; }
-  .step-card { min-width: 260px; }
+  .step-card { min-width: 240px; padding: 24px 20px; }
+  .step-number { font-size: 2rem; }
+  .step-card h3 { font-size: 1.2rem; }
 
-  .cta-section { padding: 80px 20px; }
+  /* FAQ */
+  .faq-question { font-size: 1rem; padding: 14px 18px; }
+  .faq-answer { padding: 0 18px; }
+  .faq-item.open .faq-answer { padding: 0 18px 16px; }
+
+  /* Bath salts pricing */
+  .price-amount { font-size: 1.5rem; }
+  .bath-salts-pricing { padding: 16px 18px; gap: 16px; }
+
+  /* CTA */
+  .cta-section { padding: 56px 20px; }
+  .cta-sub { font-size: 0.95rem; }
 }
