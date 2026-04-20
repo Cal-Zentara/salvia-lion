@@ -520,6 +520,21 @@ em {
 
 .service-card:hover .card-glow { opacity: 1; }
 
+.service-pricing {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.service-pricing span {
+  font-size: 0.85rem;
+  color: var(--accent);
+  border: 1px solid rgba(20,184,166,0.35);
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  white-space: nowrap;
+}
+
 .card-icon {
   display: block;
   font-size: 2.2rem;
