@@ -10,7 +10,7 @@ Demo website for Salvia Lion (Nancy's pen name) — a spiritual healer offering 
 | ------ | --------------------------- |
 | UI     | HTML + CSS + Vanilla JS     |
 | Fonts  | Cormorant Garamond (headlines), Lato (body) — Google Fonts |
-| Shared | ../shared/base.css, utils.js |
+| Shared | base.css inlined into style.css (no longer imported), utils.js |
 
 ## Files
 
@@ -32,16 +32,17 @@ Demo website for Salvia Lion (Nancy's pen name) — a spiritual healer offering 
 
 ## Sections
 
-1. Nav — Spirit Nancy logo, links (About, Services, How It Works, Stories), ☀️/🌙 theme toggle, Reach Out Now button
-2. Hero — "Leave feeling loved, comforted, and hopeful" — Spirit Lion image bottom right (mix-blend-mode: screen on dark, multiply on light)
+1. Nav — Salvia Lion logo, links (About, Services, Shop, How It Works, Stories), ☀️/🌙 theme toggle, Reach Out Now button. Mobile: hamburger menu with full-screen overlay
+2. Hero — "Leave feeling loved, comforted, and hopeful" — Spirit Lion image below text on mobile (mix-blend-mode: normal on mobile, screen on desktop dark)
 3. Teal marquee strip — 12 items including Moon Ceremonies + Space Clearing
-4. About Nancy — banner photo (EsponSalt.jpeg, dark overlay), Meet Nancy eyebrow below photo, two-column (story left, Nancy's photo + why card right), "Why she does this" card full-width horizontal below
-5. Services — 3 cards with photos (Books.jpeg for Reiki, Tarot Cards for Tarot, Sage for Energy Clearing)
-6. Testimonials — 2 real (Cal + Vikki), 4 placeholders — auto-advances, prev/next arrow controls, Cal has photo
-7. How It Works — 3 steps with Nancy's real before/during/after process (from Q8)
-8. FAQ — 6 questions accordion, uses Nancy's real words
-9. CTA — "There's a reason you were led here" + Nancy's Q12 quote
-10. Footer — name, tagline, wellness disclaimer
+4. About Salvia — NO banner photo (removed). Meet Salvia eyebrow, two-column (story left, Salvia's photo + why card right), "Why she does this" card full-width horizontal below. Profile photo: 75% width, height: auto, no crop
+5. Services — 3 cards with photos (Books.jpeg for Reiki, Tarot Cards for Tarot, EsponSalt.jpeg for Energy Clearing)
+6. **Bath Salts Shop** — Video.mp4 autoplay left, product info right. 3 interactive scent selector pills (purple). Pricing: $10 single / $24 bundle of 3. Order button emails Lionsalvia@gmail.com
+7. Testimonials — 3 real (Cal, Vikki, Rosemary), 4 placeholders — auto-advances, prev/next arrow controls, Cal has photo
+8. How It Works — 3 steps with Salvia's real before/during/after process (from Q8)
+9. FAQ — 6 questions accordion, uses Salvia's real words
+10. CTA — "There's a reason you were led here" + Salvia's Q12 quote
+11. Footer — name, tagline, wellness disclaimer
 
 ## About Nancy
 
@@ -93,26 +94,46 @@ Demo website for Salvia Lion (Nancy's pen name) — a spiritual healer offering 
 
 Every answer Nancy gives goes directly onto the site using her exact words — lightly edited for readability only (tighten, don't change meaning or voice). No invented copy.
 
-## Status — 2026-04-09
+## Monthly Membership — The Monthly Hold
 
-- Site functionally complete, not live — holding until Nancy picks her pen name and is ready
-- Light mode + dark mode toggle added — Nancy to choose preferred theme
-- All Q1–Q12 answered and live on site
-- How It Works rewritten with Nancy's real process (Q8)
-- CTA updated with Nancy's Q12 copy
-- FAQ section added with 6 questions using Nancy's real words
-- Photos added: EsponSalt (about banner), Reiki.webp, Sage.avif, Books.jpeg, Spirit Lion (hero), Nancy profile photo (about section), Cal testimonial photo
-- Spirit Lion: `Mystical lion with glowing energy trails.png` — mix-blend-mode: screen (dark) / multiply (light)
-- 2 real testimonials: Cal + Vikki. Cal has photo (`Testimonial1.jpeg`)
-- Buttons changed from "Book a Session" → "Reach Out Now"
-- All emojis removed except ☀️/🌙 theme toggle
+Added 2026-04-17. Idea from Dalena.
+
+**Package:** 4 distance Reiki sessions + 1 monthly card pull + 4 weekly card pulls + 4 bath salt bags (shipped or local pickup)
+
+**Pricing:**
+- Founding member rate: $999/month — first 5 clients, locked in for life
+- Standard rate: $1,200/month (retail value ~$1,390)
+
+**Sessions:** Distance Reiki via scheduled time window (not Zoom call) — client relaxes at home, Salvia runs the session at agreed time, sends debrief + chakra notes by email after
+
+**Bath salts delivery:** Both shipping and local pickup offered
+
+**CTA:** "Join the Waitlist" button — emails Lionsalvia@gmail.com?subject=Monthly Hold Waitlist
+
+**Section location:** Between Services and Bath Salts Shop in index.html
+
+## Status — 2026-04-15
+
+- **LIVE** at https://cal-zentara.github.io/salvia-lion/ (Cal-Zentara GitHub account)
+- Pen name confirmed: **Salvia Lion** — all "Spirit Nancy" / "Nancy" references updated throughout
+- Full audit completed and fixed: mobile hamburger nav, theme persistence (localStorage), aria-labels, dead CSS removed, base.css inlined
+- About banner photo (EsponSalt.jpeg) removed — section starts directly with "Meet Salvia" eyebrow
+- Energy Clearing service card updated from Sage.avif → EsponSalt.jpeg
+- Profile photo: full image shown (no crop), 75% width, height auto
+- Theme preference persists on refresh via localStorage key `sl-theme`
+- CTA email placeholder: Lionsalvia@gmail.com — needs real email before go-live
+- **Bath salts shop section added** — Video.mp4 generated via Kie.ai (Veo 3.1), pricing $10/$24 bundle, 3 scent selector buttons
+- **Bath salt product details:** 3.1oz / 88g, scents: White Tea & Lavender / Neroli & Eucalyptus / Chamomile & Lavender, ingredients: baking soda, corn starch, Epsom salt, jojoba oil, vitamin E, essential oils, SLSA
+- **Mobile lion fixed** — lion now shows below hero text on mobile, mix-blend-mode: normal on mobile (screen on desktop)
+- **Bath salts copy updated (2026-04-15)** — Nancy provided new description: "crafted to not only cleanse and purify your energy but also charged with intentions to aid in recovery and healing. Perfect for after a long week at work, crowded places, or an intense workout." Replaced old placeholder copy in index.html:190
+- **Physical stamp** — Nancy wants a rubber stamp of the lion (Mystical lion with glowing energy trails.png) for bath salt bags. Researched Etsy shops: Modern Maker Stamps + Fresh Cut Prints recommended. Note: lion image needs to be simplified/traced before stamping — too detailed/colorful as-is
 
 ## Pending Before Go-Live
-- Pen name confirmed: **Salvia Lion** — site updated
-- Real booking link (Calendly or email)
-- Her photo approval
-- Pricing (optional)
+- Real booking link or email address for CTA button (currently Lionsalvia@gmail.com placeholder)
+- Salvia's approval of her profile photo on the live site
 - 1–2 more real testimonials
+- Real payment/order link for bath salts (currently emails Lionsalvia@gmail.com)
+- Send Her People questions (Q13–18) when timing is right
 
 ## How Nancy Works (operational notes)
 - Goes at her own pace — don't push, let inspiration drive her
@@ -147,7 +168,26 @@ Every answer Nancy gives goes directly onto the site using her exact words — l
 
 ---
 
+## Stamp Order — 2026-04-19
+
+Ordered via RubberStamps.net. Cal paid upfront — bill Nancy $57.25.
+
+| Field | Detail |
+|---|---|
+| Order Number | 5486467 |
+| Date | 2026-04-19 |
+| Item 1 | 3x3.5 Rubber Stamp, Rich Walnut Handle — $30.95 |
+| Item 2 | All-Purpose Large 4x7" Black Stamp Pad — $15.95 |
+| Subtotal | $46.90 |
+| Tax | $3.40 |
+| Shipping | $6.95 (First-Class Mail, 5–10 business days) |
+| **Grand Total** | **$57.25** |
+| Payment | Amex *398 |
+| Ship To | Christopher D Le, 1773 S Caroleen St, Anaheim CA 92804 |
+| Stamp image file | `pics/lion_stamp_v5.png` (pencil sketch conversion of original lion PNG) |
+
 ## Next Steps
-- Wait for Nancy's pen name — update site name + branding when confirmed
-- Send Her People questions (Q13–18) when timing is right
-- Deploy when Nancy is ready
+- Get Salvia's real email or booking link for the CTA button
+- Send Her People questions (Q13–18) when timing feels right
+- Collect 1–2 more real testimonials
+- **Bill Nancy $57.25 for stamp order #5486467**
