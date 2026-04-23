@@ -1,5 +1,83 @@
 # CLAUDE.md — Spirit Nancy
 
+## Quick Nav — Read First
+
+| I'm doing... | Read only... |
+|---|---|
+| Continuing work / resuming | `STATUS.md` |
+| Fixing a bug | `STATUS.md` + Files / Sections tables |
+| Adding a feature | `STATUS.md` + Design + relevant file |
+| Working on intake PDF | `make_form.py` + Digital signing section |
+| Understanding the whole project | This CLAUDE.md in full |
+
+**Do not explore.** If the answer isn't in the files above, ask before searching.
+
+---
+
+## Dev Reference — Symbol Map / Schema / Gotchas
+
+> Keep line ranges current. If a code change shifts lines, update the table in the same edit.
+
+### Symbol Map
+
+| Feature | File | Lines |
+|---|---|---|
+| Nav (logo, links, theme toggle, hamburger) | `index.html` | 14–32 |
+| Nav + mobile hamburger styles | `style.css` | 119–1343 |
+| Hero (lion image, text) | `index.html` | 34–54 |
+| Hero styles | `style.css` | 193–282 |
+| Services (3-card grid) | `index.html` | 140–177 |
+| Services styles + card tilt | `style.css` | 479–579 |
+| Membership section (Monthly Hold) | `index.html` | 180–237 |
+| Membership styles | `style.css` | 581–731 |
+| Bath salts shop (video + scent selector) | `index.html` | 240–283 |
+| Bath salts styles | `style.css` | 733–863 |
+| Testimonials carousel | `index.html` | 286–376 |
+| Testimonials carousel styles | `style.css` | 865–995 |
+| How It Works horizontal scroll | `style.css` | 996–1057 |
+| FAQ accordion | `index.html` | 408–446 |
+| FAQ styles | `style.css` | 1059–1127 |
+| Mobile nav overlay | `index.html` | 469–479 |
+| Mobile nav styles | `style.css` | 1344–1442 |
+| Theme CSS variables | `style.css` | 26–44 |
+| Light-mode theme overrides | `style.css` | 1214–1287 |
+| Scroll reveal styles | `style.css` | 1302–1312 |
+| Scroll reveal (fade-in observer) | `app.js` | 5–17 |
+| Carousel auto-advance + controls | `app.js` | 19–66 |
+| 3D card tilt on hover | `app.js` | 68–82 |
+| Magnetic button pull | `app.js` | 84–98 |
+| Horizontal drag scroll | `app.js` | 100–125 |
+| FAQ expand/collapse | `app.js` | 141–158 |
+| Mobile nav toggle logic | `app.js` | 160–188 |
+| Theme toggle + localStorage persistence | `app.js` | 190–207 |
+| Shared utilities (storage, toast, fetch) | `utils.js` | 1–153 |
+| Shared base reset + toast container | `shared/base.css` | 1–47 (now inlined into style.css) |
+
+### Data Schema
+
+No client-side persistence beyond theme preference. All CTAs are `mailto:` links — no form submission.
+
+- **localStorage key:** `sl-theme` — values `'light'` or `'dark'` (set by theme toggle, `app.js` lines 195–206)
+- **Query params:** none
+- **API endpoints:** none
+- **Primary contact email (all CTAs):** `Lionsalvia@gmail.com`
+- **Bath salts order CTA:** `mailto:Lionsalvia@gmail.com?subject=...` (manual email order, Stripe pending)
+- **Monthly Hold waitlist CTA:** `mailto:Lionsalvia@gmail.com?subject=Monthly Hold Waitlist`
+
+### Known Gotchas
+
+- **`base.css` is inlined into `style.css`** (lines 1–19) — originally imported from `../shared/base.css`, now local to avoid path issues. `utils.js` is still imported directly from local copy.
+- **Hero lion blend mode switches on mobile** — `mix-blend-mode: screen` on desktop (line 265) → `normal` on mobile (line 280). Intentional: screen mode breaks readability on small screens.
+- **Hero is `flex-column` on mobile** (line 1403) — lion image moves below text from absolutely-positioned right side on desktop.
+- **About photo has no crop** — explicitly `75% width, height: auto` (line 457–458) to preserve full face.
+- **Service card `object-position` overrides** — Tarot `center 30%` and Energy Clearing `center 40%` (lines 159, 169) to frame faces correctly.
+- **Carousel is hand-rolled** (`transform: translateX`, 100% width per card, lines 40, 877–879) — not a library. Auto-advance uses `setInterval`, no pause-on-hover.
+- **Horizontal drag scroll uses multiplier `1.5`** (line 122) — snappier than mouse movement by design.
+- **FAQ `max-height: 300px` hard limit** (line 1119) — if answer content grows beyond this, it will clip. Would need dynamic height measurement to fix.
+- **`showToast()` needs `#toast-container` in DOM** — if `base.css` is removed, toasts won't render (`utils.js` lines 56–73).
+
+---
+
 ## Project
 
 Demo website for Salvia Lion (Nancy's pen name) — a spiritual healer offering Reiki, tarot guidance, and energy clearing. Built in SSP as a 4-file static site. Not live yet — holding until Salvia is ready.
@@ -101,8 +179,8 @@ Added 2026-04-17. Idea from Dalena.
 **Package:** 4 distance Reiki sessions + 1 monthly card pull + 4 weekly card pulls + 4 bath salt bags (shipped or local pickup)
 
 **Pricing:**
-- Founding member rate: $999/month — first 5 clients, locked in for life
-- Standard rate: $1,200/month (retail value ~$1,390)
+- Founding member rate: $444/month — first 3 clients, locked in for life (444 = angel number, matches 4x4x4 package)
+- Standard rate: $668.68/month
 
 **Sessions:** Distance Reiki via scheduled time window (not Zoom call) — client relaxes at home, Salvia runs the session at agreed time, sends debrief + chakra notes by email after
 
@@ -112,7 +190,7 @@ Added 2026-04-17. Idea from Dalena.
 
 **Section location:** Between Services and Bath Salts Shop in index.html
 
-## Status — 2026-04-15
+## Status — 2026-04-19
 
 - **LIVE** at https://cal-zentara.github.io/salvia-lion/ (Cal-Zentara GitHub account)
 - Pen name confirmed: **Salvia Lion** — all "Spirit Nancy" / "Nancy" references updated throughout
@@ -126,14 +204,19 @@ Added 2026-04-17. Idea from Dalena.
 - **Bath salt product details:** 3.1oz / 88g, scents: White Tea & Lavender / Neroli & Eucalyptus / Chamomile & Lavender, ingredients: baking soda, corn starch, Epsom salt, jojoba oil, vitamin E, essential oils, SLSA
 - **Mobile lion fixed** — lion now shows below hero text on mobile, mix-blend-mode: normal on mobile (screen on desktop)
 - **Bath salts copy updated (2026-04-15)** — Nancy provided new description: "crafted to not only cleanse and purify your energy but also charged with intentions to aid in recovery and healing. Perfect for after a long week at work, crowded places, or an intense workout." Replaced old placeholder copy in index.html:190
-- **Physical stamp** — Nancy wants a rubber stamp of the lion (Mystical lion with glowing energy trails.png) for bath salt bags. Researched Etsy shops: Modern Maker Stamps + Fresh Cut Prints recommended. Note: lion image needs to be simplified/traced before stamping — too detailed/colorful as-is
+- **Physical stamp ordered (2026-04-19)** — RubberStamps.net order #5486467, 3x3.5 wood stamp + ink pad, $57.25 total. Stamp image: `pics/lion_stamp_v5.png` (pencil sketch conversion). Ships 5–10 days. Bill Nancy $57.25.
+- **Contact email updated** — All buttons now point to Lionsalvia@gmail.com (was placeholder)
+- **Pricing live on site** — Reiki/Tarot: 30 min $88.88 / 60 min $168.88. Monthly Hold: $444 founding (3 spots) / $668.68 standard. Bath salts: $10 single / $24 bundle
+- **444 angel number** — Nancy chose $444 for founding rate because the package is 4 sessions + 4 card pulls + 4 bags
+- **Reiki Intake PDF built (2026-04-19)** — 2-page PDF at `Salvia_Lion_Reiki_Intake_Form.pdf`. Page 1: About Holy Fire® Reiki + what to expect. Page 2: client intake form + liability waiver + signature. Built with Python/ReportLab (`make_form.py`). Dark purple `#1E0040` headers, lion stamp image in header.
+- **Digital signing** — Researched options. Recommendation: **PandaDoc free plan** (60 docs/year, upload exact PDF, client signs in browser, no account needed, signed copy auto-emailed). Nancy needs to create account at pandadoc.com with Lionsalvia@gmail.com first.
 
 ## Pending Before Go-Live
-- Real booking link or email address for CTA button (currently Lionsalvia@gmail.com placeholder)
 - Salvia's approval of her profile photo on the live site
 - 1–2 more real testimonials
-- Real payment/order link for bath salts (currently emails Lionsalvia@gmail.com)
+- Real payment/order link for bath salts — Stripe setup pending (Nancy needs to open a separate business checking first)
 - Send Her People questions (Q13–18) when timing is right
+- Nancy to set up PandaDoc account for digital intake form signing
 
 ## How Nancy Works (operational notes)
 - Goes at her own pace — don't push, let inspiration drive her
@@ -187,7 +270,9 @@ Ordered via RubberStamps.net. Cal paid upfront — bill Nancy $57.25.
 | Stamp image file | `pics/lion_stamp_v5.png` (pencil sketch conversion of original lion PNG) |
 
 ## Next Steps
-- Get Salvia's real email or booking link for the CTA button
-- Send Her People questions (Q13–18) when timing feels right
+- **Bill Nancy $57.25** for stamp order #5486467 (ships in 5–10 days)
+- Nancy opens business checking account → connect to Stripe for bath salt payments
+- Nancy creates PandaDoc account (Lionsalvia@gmail.com) → upload intake PDF → set signature field → embed link on site
+- Salvia approves her profile photo on live site
 - Collect 1–2 more real testimonials
-- **Bill Nancy $57.25 for stamp order #5486467**
+- Send Her People questions (Q13–18) when timing feels right
