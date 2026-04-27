@@ -770,6 +770,14 @@ em {
   line-height: 1.8;
 }
 
+.bath-salts-ritual {
+  color: var(--accent);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  font-style: italic;
+  opacity: 0.85;
+}
+
 .scents-label {
   font-size: 0.8rem;
   letter-spacing: 0.12em;
