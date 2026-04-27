@@ -30,8 +30,8 @@
 | Services styles + card tilt | `style.css` | 479–579 |
 | Membership section (Monthly Hold) | `index.html` | 180–237 |
 | Membership styles | `style.css` | 581–731 |
-| Bath salts shop (video + scent selector) | `index.html` | 240–283 |
-| Bath salts styles | `style.css` | 733–863 |
+| Bath salts shop (video + scent selector) | `index.html` | 240–284 |
+| Bath salts styles | `style.css` | 733–871 |
 | Testimonials carousel | `index.html` | 286–376 |
 | Testimonials carousel styles | `style.css` | 865–995 |
 | How It Works horizontal scroll | `style.css` | 996–1057 |
@@ -268,6 +268,72 @@ Ordered via RubberStamps.net. Cal paid upfront — bill Nancy $57.25.
 | Payment | Amex *398 |
 | Ship To | Christopher D Le, 1773 S Caroleen St, Anaheim CA 92804 |
 | Stamp image file | `pics/lion_stamp_v5.png` (pencil sketch conversion of original lion PNG) |
+
+## Bath Salts Marketing — 2026-04-27
+
+Full roadmap saved at: `C:\Users\Aesth\Desktop\Zentara\Projects\Marketing\bath-salts\salvia-lion-roadmap.md`
+
+### Copy Changes Made (2026-04-27)
+- **Eyebrow:** "Available Now" → "Salvia's Handcrafted Blends"
+- **Title:** "Handcrafted bath salts" → "Bath salts for people who feel everything"
+- **Description:** Rewrote to lead with empath pain point → Reiki credential → outcome ("clear, grounded, lighter")
+- **Added:** Ritual instruction line — "Run a warm bath — add the whole bag — set an intention — let the water do the rest." (styled teal italic, `.bath-salts-ritual`)
+- **Scents label:** "Choose your scent" → "Pick your blend"
+- **Bundle label:** "Bundle of 3 — try every scent" → "Bundle of 3 — one for every kind of week"
+
+### Buyer Research Findings (Reddit + Etsy)
+**Who buys:** Empaths and sensitive people ("I absorb others' energy"), spiritual beginners, stressed professionals after hard weeks.
+
+**Why they buy (triggers):**
+- Scent is #1 — always lead with it
+- Instructions included — "how to use" copy drives conversions
+- Maker's story — handmade by a Reiki healer = more powerful than factory-made
+- Specific outcomes — not "relax" but "clear, grounded, protected"
+- Packaging + presentation signal legitimacy
+
+**Exact buyer phrases to use in copy:**
+- "I absorb others' energy"
+- "After a long week at work, crowded places"
+- "Charged with intentions"
+- "Feel grounded, calm, protected"
+- "Reset / cleanse / clear my energy"
+
+**Nancy's biggest differentiator:** Nobody on Etsy positions as a practitioner who makes the salts as part of their healing practice. She's a Reiki healer who charges every bag — that's the gap nobody else fills.
+
+### Etsy Competitive Landscape
+- Top sellers price: $8–15 single / $20–40 bundle. Nancy's $10/$24 is in the sweet spot.
+- Top sellers have 500+ reviews — social proof is the unlock
+- Gaps in market: no personal healer backstory, weak video, no distance healing mention
+- Nancy's advantages: Reiki credential, Video.mp4, real client testimonials, cross-sell to sessions
+
+### Marketing Roadmap — Skills by Phase
+See full roadmap at `Marketing/bath-salts/salvia-lion-roadmap.md`.
+
+**Phase 1 — Now (no Stripe needed):**
+1. `/voice-extractor` → document Nancy's real voice from Q&A answers
+2. `/reddit-insights` → "spiritual bath salts," "energy clearing," "empath self-care" (needs API key setup at reddit-insights.com)
+3. `/cal-content` for SpiritNancy → 10–15 IG post ideas + captions in her voice
+4. `/market-social` → 30-day IG content calendar
+5. `/testimonial-collector` → ask Reiki/tarot clients this week
+6. `/kie-video` → short Reels content
+
+**Phase 2 — When Stripe is live:**
+1. `/page-cro` → audit bath salts section for conversion friction
+2. `/popup-cro` → exit-intent email capture
+3. `/cal-ai-findability` → score Nancy's AI search visibility
+4. `/schema-markup` → tag products with price/scents for Google rich results
+5. `/market-emails` → nurture sequence: intro → education → buy
+6. `/pricing-strategy` → validate $10/$24, test bundle psychology
+
+**Phase 3 — Scaling:**
+1. `/ad-creative` + `/paid-ads` → target Reiki/tarot/chakra audiences on IG/Meta
+2. `/cold-outreach-sequence` → yoga studios, spiritual coaches, wellness bloggers
+3. `/referral-program` → "gift a friend" system for first buyers
+
+### Etsy as a Channel
+Worth opening an Etsy shop once Nancy has 5–10 reviews and product photos. Use it as a second discovery channel — Etsy buyers are already searching and ready to buy. Run IG to build brand, Etsy to capture search traffic.
+
+---
 
 ## Next Steps
 - **Bill Nancy $57.25** for stamp order #5486467 (ships in 5–10 days)
