@@ -125,7 +125,7 @@ Demo website for Salvia Lion (Nancy's pen name) — a spiritual healer offering 
 ## About Nancy
 
 - Offers: Reiki (hands-on + distance), tarot, chakra balancing, aura cleansing, breathwork, sage/smudging, space clearing, Epsom salt baths, meditation, visualization, journaling prompts, crystals (amethyst, black tourmaline, rose quartz, selenite), full moon + new moon ceremonies
-- **Distance Reiki for pets** — confirmed 2026-04-27. She's done several sessions, clients love it. She's open to advertising this and willing to film video content for it (on a calm pet, not Bruce — her own pet who doesn't like it).
+- **Distance Reiki for pets** — confirmed 2026-04-27. She's done several sessions, clients love it. Pricing confirmed: **$66.66 per session** (angel number, balance and harmony). Added as 4th service card on site. Needs a real pet photo to replace Books.jpeg placeholder. She's willing to film video content for it (on a calm pet, not Bruce — her own pet who doesn't like it).
 - Spirit animal: male lion
 - Core message: people leave feeling loved, comforted, peaceful, and hopeful
 - She sympathizes deeply with clients — most come to her feeling lost
