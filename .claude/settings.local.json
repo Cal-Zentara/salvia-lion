@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "mcp__brave-search__brave_web_search"
+      "mcp__brave-search__brave_web_search",
+      "mcp__unsplash__search_photos",
+      "mcp__unsplash__download_to_project"
     ]
   }
 }
