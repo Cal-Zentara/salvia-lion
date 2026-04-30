@@ -124,6 +124,7 @@ Demo website for Salvia Lion (Nancy's pen name) — a spiritual healer offering 
 
 ## About Nancy
 
+- **Credential: Certified Reiki Master (Level 3/4)** — the highest level of Reiki training. Can teach and attune others but does not want to. This is a key credibility signal — use it near pricing everywhere.
 - Offers: Reiki (hands-on + distance), tarot, chakra balancing, aura cleansing, breathwork, sage/smudging, space clearing, Epsom salt baths, meditation, visualization, journaling prompts, crystals (amethyst, black tourmaline, rose quartz, selenite), full moon + new moon ceremonies
 - **Distance Reiki for pets** — confirmed 2026-04-27. She's done several sessions, clients love it. Pricing confirmed: **$66.66 per session** (angel number, balance and harmony). Added as 4th service card on site. Needs a real pet photo to replace Books.jpeg placeholder. She's willing to film video content for it (on a calm pet, not Bruce — her own pet who doesn't like it).
 - Spirit animal: male lion
@@ -336,8 +337,66 @@ Worth opening an Etsy shop once Nancy has 5–10 reviews and product photos. Use
 
 ---
 
+## Content Resource — Salvia's Words & Knowledge
+*Everything pulled directly from conversations with Nancy. Use her exact words whenever possible.*
+
+### Reiki Symbols She Uses
+
+| Symbol | Used for | Nancy's words |
+|---|---|---|
+| Cho Ku Rei | Every session — power symbol | "The same ones I use in my session" |
+| Sei He Ki | Every session — mental/emotional symbol | "The same ones I use in my session" |
+| Hon Sha Ze Sho Nen | Distance Reiki symbol | "Used to send reiki far away" |
+
+- She uses **Cho Ku Rei and Sei He Ki in every session** — including to charge the bath salts
+- Hon Sha Ze Sho Nen is what makes distance Reiki possible — this is the "how" behind remote sessions
+- Bath salts are charged using these actual symbols, not just general intention
+
+### The 5 Reiki Precepts (Core Principles)
+*Nancy: "These are the core principles for reiki that every student knows...if you want to make a future post about reiki"*
+
+1. Just for today, I will not be angry *(Ikaru na)*
+2. Just for today, I will not worry *(Shinpai suna)*
+3. Just for today, I will be grateful *(Kansha shite)*
+4. Just for today, I will do my work honestly *(Gyo o hakame)*
+5. Just for today, I will be kind to every living thing *(Hito ni shinsetsu ni)*
+
+### Master vs Practitioner — In Her Words
+- "Besides the experience, a master has taken more advanced classes and they can initiate and train others. Their energy is going to be different from a practitioner who has only done level 1."
+- "If I ever paid for Reiki, I would go to a master. Whereas I can probably find a practitioner who needs to do Reiki on 10 people because of their class for free."
+- She CAN teach and attune others — but doesn't want to. She wants to heal, not train.
+- This distinction directly justifies the $444 / $168.88 pricing — use it near prices.
+
+### Content Angles (Ready to Film)
+1. **Master vs practitioner** — the energy difference, why it matters, why she charges what she charges
+2. **The two symbols** — Cho Ku Rei + Sei He Ki, what they do, she draws them before every session
+3. **Distance Reiki explained** — Hon Sha Ze Sho Nen, how healing travels across any distance
+4. **Bath salts ritual** — she charges each bag with Reiki symbols before it ships. Nobody else does this.
+5. **The 5 Precepts** — educational, shareable, hits the spiritual audience perfectly
+6. **"She doesn't want to teach"** — personal angle, makes her feel real and heart-led
+
+### Bath Salts Charging (Confirmed 2026-04-29)
+Nancy confirmed she uses Cho Ku Rei and Sei He Ki to charge every bath salt bag with intentions. This is the actual Reiki practice behind the product — not a marketing phrase. Use this in content and copy.
+
+## Booking Calendar
+
+**Nancy's requirements (2026-04-29):**
+- 2 sessions per week max
+- 1 weekend day + 1 weekday — flexible on exact times, client and Nancy work it out
+- Weekly cap: once 2 sessions are booked that week, no more slots show
+
+**Tool decision:** Calendly free plan — 1 event type, unlimited bookings, connects to Google Calendar. Free forever for her use case.
+
+**Status:** Not yet set up. Waiting on Nancy to confirm she's ready.
+
+**Next action:** Set up Calendly, embed booking link on site (replace "Reach Out Now" email button or add as second CTA).
+
+---
+
 ## Next Steps
-- **Bill Nancy $57.25** for stamp order #5486467 (ships in 5–10 days)
+- ~~**Bill Nancy $57.25** for stamp order #5486467~~ ✅ Done 2026-04-29
+- ~~Bath salts Reel~~ ✅ Built + approved 2026-04-29 — Nancy posts 2026-04-30
+- Set up Calendly booking calendar per specs above → embed on site
 - Nancy opens business checking account → connect to Stripe for bath salt payments
 - Nancy creates PandaDoc account (Lionsalvia@gmail.com) → upload intake PDF → set signature field → embed link on site
 - Salvia approves her profile photo on live site

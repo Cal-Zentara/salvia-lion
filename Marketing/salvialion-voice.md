@@ -1,6 +1,14 @@
-# Voice Profile — Salvia Lion (Nancy)
-Last updated: April 27, 2026
+# Voice Profile — Salvia Lion
+Last updated: April 29, 2026
 Source: Discovery answers Q1–Q12 (her exact words)
+
+---
+
+## Hard Rules (apply to ALL public content)
+
+- **Never use her real name on social media.** All public posts, carousel slides, captions, image text — "Salvia" or "Salvia Lion" only. Never "Nancy."
+- **Never reuse produced content.** Check `STATUS.md` Done section before writing anything new. All used content is logged there.
+- **Tone anchor:** Quiet confidence. Warm but not soft. Personal story as proof, not performance. One short punchy sentence lands harder than three long ones.
 
 ---
 
