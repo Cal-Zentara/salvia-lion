@@ -203,7 +203,7 @@ Added 2026-04-17. Idea from Dalena.
 - Theme preference persists on refresh via localStorage key `sl-theme`
 - CTA email placeholder: Lionsalvia@gmail.com — needs real email before go-live
 - **Bath salts shop section added** — Video.mp4 generated via Kie.ai (Veo 3.1), pricing $10/$24 bundle, 3 scent selector buttons
-- **Bath salt product details:** 3.1oz / 88g, scents: White Tea & Lavender / Neroli & Eucalyptus / Chamomile & Lavender, ingredients: baking soda, corn starch, Epsom salt, jojoba oil, vitamin E, essential oils, SLSA
+- **Bath salt product details:** 3.1oz / 88g, scents: White Tea Lavender / Neroli Eucalyptus / Sage Lavender, ingredients: baking soda, corn starch, Epsom salt, jojoba oil, vitamin E, essential oils, SLSA
 - **Mobile lion fixed** — lion now shows below hero text on mobile, mix-blend-mode: normal on mobile (screen on desktop)
 - **Bath salts copy updated (2026-04-15)** — Nancy provided new description: "crafted to not only cleanse and purify your energy but also charged with intentions to aid in recovery and healing. Perfect for after a long week at work, crowded places, or an intense workout." Replaced old placeholder copy in index.html:190
 - **Physical stamp ordered (2026-04-19)** — RubberStamps.net order #5486467, 3x3.5 wood stamp + ink pad, $57.25 total. Stamp image: `pics/lion_stamp_v5.png` (pencil sketch conversion). Ships 5–10 days. Bill Nancy $57.25.
@@ -270,6 +270,17 @@ Ordered via RubberStamps.net. Cal paid upfront — bill Nancy $57.25.
 | Payment | Amex *398 |
 | Ship To | Christopher D Le, 1773 S Caroleen St, Anaheim CA 92804 |
 | Stamp image file | `pics/lion_stamp_v5.png` (pencil sketch conversion of original lion PNG) |
+
+## Bath Salts Marketing — 2026-04-30
+
+### IG Caption Format (Approved)
+Nancy approved a long-form caption format — she wants buyers to see exactly which scent they're getting. Full format + example saved in Claude memory: `feedback_salvia-lion-ig-caption-format.md`
+
+**Caption structure:** Hook (her voice) → what it does / who it's for → product list (each scent on own line w/ emoji) → promo note → price + CTA → dots → hashtags
+
+**Pre-orders active now — going live in June.**
+
+---
 
 ## Bath Salts Marketing — 2026-04-27
 
@@ -385,18 +396,21 @@ Nancy confirmed she uses Cho Ku Rei and Sei He Ki to charge every bath salt bag 
 - 1 weekend day + 1 weekday — flexible on exact times, client and Nancy work it out
 - Weekly cap: once 2 sessions are booked that week, no more slots show
 
-**Tool decision:** Calendly free plan — 1 event type, unlimited bookings, connects to Google Calendar. Free forever for her use case.
+**Tool decision:** Google Calendar Appointment Schedule (free, no third-party needed).
 
-**Status:** Not yet set up. Waiting on Nancy to confirm she's ready.
+**Status:** ✅ Booking page created 2026-04-30 via iPad Safari (desktop mode). Timezone still set to GMT+00 — needs to be changed to Pacific Time on a desktop. Description also needs updating. Both fixes require desktop browser.
 
-**Next action:** Set up Calendly, embed booking link on site (replace "Reach Out Now" email button or add as second CTA).
+**Next action:** Embed Nancy's booking link on site once she shares it. Also fix timezone + description on desktop.
 
 ---
 
 ## Next Steps
 - ~~**Bill Nancy $57.25** for stamp order #5486467~~ ✅ Done 2026-04-29
-- ~~Bath salts Reel~~ ✅ Built + approved 2026-04-29 — Nancy posts 2026-04-30
-- Set up Calendly booking calendar per specs above → embed on site
+- ~~Bath salts Reel~~ ✅ Built + approved 2026-04-30 — Nancy posts 2026-05-01 (full moon)
+- ~~Set up booking calendar~~ ✅ Google Calendar Appointment Schedule created 2026-04-30
+- Fix booking page timezone (GMT → Pacific) + description — needs desktop browser
+- Nancy to share booking link → embed on site as "Book a Session" button
+- Confirm 10% Lavender Moon discount with Dalena before site goes live
 - Nancy opens business checking account → connect to Stripe for bath salt payments
 - Nancy creates PandaDoc account (Lionsalvia@gmail.com) → upload intake PDF → set signature field → embed link on site
 - Salvia approves her profile photo on live site
