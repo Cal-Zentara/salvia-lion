@@ -1,29 +1,29 @@
 # STATUS — Spirit Nancy (Salvia Lion)
 
-*Last updated: 2026-04-29 (evening)*
+*Last updated: 2026-05-22*
 
 ## What this is
-Demo/soon-to-be-live site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon ceremonies, bath salts shop. Holding release until she's ready.
+Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon ceremonies, bath salts shop. Not publicly launched yet.
 
 ## What's live
-- Site at https://cal-zentara.github.io/salvia-lion/ (not public-launched yet)
-- 11 sections built: nav, hero, marquee, about, services, bath salts shop, testimonials, how it works, FAQ, CTA, footer
-- Pricing set: Reiki/Tarot 30min $88.88 / 60min $168.88, Monthly Hold $444 founding / $668.68 standard, bath salts $10/$24 bundle
-- Reiki Intake PDF built (`Salvia_Lion_Reiki_Intake_Form.pdf`) — 2-page form with liability waiver, built via Python/ReportLab (`make_form.py`)
-- Bath salt copy rewritten 2026-04-27 — empath angle, Reiki credential, ritual instruction line added
-
-## What's broken / blocked
-- **Payments blocked** — Nancy needs to open a business checking account before Stripe can be set up for bath salt orders
-- **Digital signing blocked** — Nancy needs to create PandaDoc account (Lionsalvia@gmail.com) → upload intake PDF → embed link on site
+- Site at https://cal-zentara.github.io/salvia-lion/
+- 11 sections built and styled, mobile-responsive
+- Pricing set: Reiki 30min $88.88 / 60min $168.88, Tarot 30min $44 / 60min $77 (Lavender Moon pricing), Pet Reiki $66.66, Monthly Hold $444 founding / $668.68 standard, bath salts $10/$24 bundle
+- Bath salts Order Yours button → live Stripe payment link (Single Bag $10 / Bundle of 3 $24)
+- Stripe account under review (2-3 days from 2026-05-22) — payments will activate once cleared
+- Real product photos on site: triple bag shot + individual Neroli and Sage bags swap on scent selection
+- Sage & Lavender marked bundle-only — $10 single option hides when selected
+- Service card photos updated: bookshelf (Reiki), tarot cards (Tarot/Lavender Moon collab), AI-generated energy clearing
+- Garden Grove business license letter received — Nancy handling (EIN done, BofA open, paying GG next)
+- Reiki Intake PDF built (`Salvia_Lion_Reiki_Intake_Form.pdf`)
 
 ## What's next
-1. Nancy posts bath salts Reel tomorrow (2026-04-30) — built in Descript, approved by Nancy
-2. Set up booking calendar — Calendly free plan (1 event type, unlimited bookings). Nancy's specs: 2 sessions/week max, 1 weekend day + 1 weekday, flexible on exact time. Embed on site once set up.
-3. Nancy posts IG Stories this week: poll (scent choice), question box ("when do you feel most drained?"), this-or-that (morning vs night bath)
-4. Send Salvia the 3 sample IG posts (saved at `Marketing/content/salvialion/2026-04-27/posts-2026-04-27.md`)
-5. Salvia opens business checking → Stripe setup for bath salts
-6. Salvia creates PandaDoc account → upload intake PDF → sign-embed on site
-7. Run `/testimonial-collector` once Salvia has first buyers
+1. Nancy fixes Google Calendar booking timezone (GMT → Pacific) — needs desktop mode on Safari
+2. Nancy shares booking link → embed as "Book a Session" button on site
+3. Wait for Stripe review to clear (2-3 days)
+4. Get individual White Tea & Lavender bag photo (landscape/horizontal shot) to replace triple shot on that scent
+5. Nancy creates PandaDoc account → upload intake PDF → embed link on site
+6. Confirm 10% Lavender Moon discount with Dalena before go-live
 
 ## Done
 - ✅ Billed Salvia $57.25 for stamp order #5486467 (2026-04-29)

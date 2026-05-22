@@ -55,13 +55,13 @@
 
 ### Data Schema
 
-No client-side persistence beyond theme preference. All CTAs are `mailto:` links — no form submission.
+No client-side persistence beyond theme preference.
 
 - **localStorage key:** `sl-theme` — values `'light'` or `'dark'` (set by theme toggle, `app.js` lines 195–206)
 - **Query params:** none
 - **API endpoints:** none
 - **Primary contact email (all CTAs):** `Lionsalvia@gmail.com`
-- **Bath salts order CTA:** `mailto:Lionsalvia@gmail.com?subject=...` (manual email order, Stripe pending)
+- **Bath salts order CTA:** `https://buy.stripe.com/14A5kCchb3usedodqRcbC00` — Stripe payment link (Single Bag $10 / Bundle of 3 $24). Stripe account review pending 2-3 days as of 2026-05-22.
 - **Monthly Hold waitlist CTA:** `mailto:Lionsalvia@gmail.com?subject=Monthly Hold Waitlist`
 
 ### Known Gotchas
@@ -70,11 +70,14 @@ No client-side persistence beyond theme preference. All CTAs are `mailto:` links
 - **Hero lion blend mode switches on mobile** — `mix-blend-mode: screen` on desktop (line 265) → `normal` on mobile (line 280). Intentional: screen mode breaks readability on small screens.
 - **Hero is `flex-column` on mobile** (line 1403) — lion image moves below text from absolutely-positioned right side on desktop.
 - **About photo has no crop** — explicitly `75% width, height: auto` (line 457–458) to preserve full face.
-- **Service card `object-position` overrides** — Tarot `center 30%` and Energy Clearing `center 40%` (lines 159, 169) to frame faces correctly.
+- **Service card `object-position` overrides** — Tarot `center 20%`, Energy Clearing `center 40%` — to frame the subject correctly in the cropped card header.
 - **Carousel is hand-rolled** (`transform: translateX`, 100% width per card, lines 40, 877–879) — not a library. Auto-advance uses `setInterval`, no pause-on-hover.
 - **Horizontal drag scroll uses multiplier `1.5`** (line 122) — snappier than mouse movement by design.
 - **FAQ `max-height: 300px` hard limit** (line 1119) — if answer content grows beyond this, it will clip. Would need dynamic height measurement to fix.
 - **`showToast()` needs `#toast-container` in DOM** — if `base.css` is removed, toasts won't render (`utils.js` lines 56–73).
+- **Image files split across two folders** — webpage images (hero, service cards, about, testimonial) live in `pics/Webpage/`. Bath salts product photos live in `pics/` root. GitHub Pages is Linux (case-sensitive) — paths must match exactly.
+- **Sage & Lavender is bundle-only** — the pill has `data-bundle-only="true"`. When selected, JS hides the `.price-single` elements and shows `.bundle-only-note`. Do not remove this without updating inventory first.
+- **Bath salts section uses a swappable product image, not a video** — `#bath-salts-product-img` src swaps on pill click via `initScentSelector()` in `app.js`. Each pill has `data-img="..."` pointing to the correct photo. White Tea & Lavender currently points to `pics/triplesalt.jpeg` (no individual shot yet).
 
 ---
 
