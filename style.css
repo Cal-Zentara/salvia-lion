@@ -951,7 +951,10 @@ em {
     height: 300px;
   }
   .bath-salts-product-img {
-    max-height: 360px;
+    height: 280px;
+    max-height: 280px;
+    object-fit: cover;
+    object-position: center 30%;
   }
   .quote { font-size: 0.92rem; line-height: 1.7; }
   .testimonial-card { padding: 20px 18px; }
@@ -1512,6 +1515,7 @@ body.light-mode .about-img {
   .services-grid { grid-template-columns: 1fr; }
   .service-card { padding: 0 0 24px; }
   .service-card h3 { font-size: 1.3rem; }
+  .card-img-wrap { height: 200px; }
 
   /* Testimonials */
   .testimonial-card { padding: 20px 18px; }
