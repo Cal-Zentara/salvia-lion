@@ -1515,7 +1515,7 @@ body.light-mode .about-img {
   .services-grid { grid-template-columns: 1fr; }
   .service-card { padding: 0 0 24px; }
   .service-card h3 { font-size: 1.3rem; }
-  .card-img-wrap { height: 200px; }
+  .card-img-wrap { height: 160px; }
 
   /* Testimonials */
   .testimonial-card { padding: 20px 18px; }
