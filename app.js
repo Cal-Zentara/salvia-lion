@@ -213,10 +213,13 @@ function initScentSelector() {
   const bundleNote = document.querySelector('.bundle-only-note');
   const productImg = document.getElementById('bath-salts-product-img');
 
+  const orderBtn = document.getElementById('order-btn');
+
   function updatePricing(pill) {
     const bundleOnly = pill.dataset.bundleOnly === 'true';
     singleEls.forEach(el => { el.style.display = bundleOnly ? 'none' : ''; });
     if (bundleNote) bundleNote.style.display = bundleOnly ? 'block' : 'none';
+    if (orderBtn && pill.dataset.link) orderBtn.href = pill.dataset.link;
   }
 
   function swapImage(pill) {
