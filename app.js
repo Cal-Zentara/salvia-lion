@@ -209,12 +209,39 @@ function initThemeToggle() {
 // ─── SCENT SELECTOR ─────────────────────────────────────────────
 function initScentSelector() {
   const pills = document.querySelectorAll('.scent-pill');
+  const singleEls = document.querySelectorAll('.price-single');
+  const bundleNote = document.querySelector('.bundle-only-note');
+  const productImg = document.getElementById('bath-salts-product-img');
+
+  function updatePricing(pill) {
+    const bundleOnly = pill.dataset.bundleOnly === 'true';
+    singleEls.forEach(el => { el.style.display = bundleOnly ? 'none' : ''; });
+    if (bundleNote) bundleNote.style.display = bundleOnly ? 'block' : 'none';
+  }
+
+  function swapImage(pill) {
+    if (!productImg || !pill.dataset.img) return;
+    productImg.classList.add('fading');
+    setTimeout(() => {
+      productImg.src = pill.dataset.img;
+      productImg.classList.remove('fading');
+    }, 300);
+  }
+
   pills.forEach(pill => {
     pill.addEventListener('click', () => {
       pills.forEach(p => p.classList.remove('active'));
       pill.classList.add('active');
+      updatePricing(pill);
+      swapImage(pill);
     });
   });
+
+  const activePill = document.querySelector('.scent-pill.active');
+  if (activePill) {
+    updatePricing(activePill);
+    swapImage(activePill);
+  }
 }
 
 // ─── INIT ────────────────────────────────────────────────────────
