@@ -66,6 +66,10 @@ No client-side persistence beyond theme preference.
   - Neroli & Eucalyptus $10: `https://buy.stripe.com/fZu5kC80Vfda8T4aeFcbC02`
   - Sage & Lavender $10: `https://buy.stripe.com/9B68wO5SN0igfhsdqRcbC03`
   - Bundle of 3 $24: `https://buy.stripe.com/6oUbJ0bd75CA7P09aBcbC04`
+- **Session Stripe links:**
+  - Reiki 30 min $88.88: `https://buy.stripe.com/7sY6oG80VaWU1qCdqRcbC07`
+  - Reiki 60 min $168.88: `https://buy.stripe.com/8x2eVc2GB4yw5GSeuVcbC08`
+  - Distance Reiki for Pets $66.66: `https://buy.stripe.com/dRm9AS1CxgheglweuVcbC09`
 - **Sacred Hold Stripe links:**
   - Founding $444/mo: `https://buy.stripe.com/dRm00ia93e96fhsaeFcbC05`
   - Standard $668.68/mo: `https://buy.stripe.com/28E7sK0yt1mk3yKfyZcbC06`
