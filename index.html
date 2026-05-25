@@ -22,6 +22,7 @@
         <li><a href="#how">How It Works</a></li>
         <li><a href="#shop">Shop</a></li>
         <li><a href="#testimonials">Stories</a></li>
+        <li><a href="#intake">Book</a></li>
       </ul>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
       <a href="https://calendar.app.google/zyUNUM2JjPNhdqrD8" target="_blank" rel="noopener" class="btn-book magnetic-btn">Book a Session</a>
@@ -421,6 +422,69 @@
         </div>
 
       </div>
+    </div>
+  </section>
+
+  <!-- ─── INTAKE FORM ─────────────────────────────────────────── -->
+  <section class="intake reveal" id="intake">
+    <div class="container">
+      <p class="section-eyebrow">Before Your Session</p>
+      <h2 class="section-title">Tell Salvia a little <em>about you</em></h2>
+      <p class="intake-sub">Fill this out before booking. It helps Salvia show up fully prepared for you.</p>
+      <form class="intake-form" action="https://formspree.io/f/mdajwdro" method="POST">
+        <div class="intake-row">
+          <div class="intake-field">
+            <label for="intake-name">Full Name</label>
+            <input type="text" id="intake-name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="intake-field">
+            <label for="intake-email">Email</label>
+            <input type="email" id="intake-email" name="email" placeholder="your@email.com" required>
+          </div>
+        </div>
+        <div class="intake-row">
+          <div class="intake-field">
+            <label for="intake-phone">Phone Number</label>
+            <input type="tel" id="intake-phone" name="phone" placeholder="714-000-0000" required>
+          </div>
+          <div class="intake-field">
+            <label for="intake-service">Service You're Booking</label>
+            <select id="intake-service" name="service" required>
+              <option value="" disabled selected>Choose a service</option>
+              <option value="Reiki 30 min — $88.88">Reiki 30 min — $88.88</option>
+              <option value="Reiki 60 min — $168.88">Reiki 60 min — $168.88</option>
+              <option value="Distance Reiki for Pets — $66.66">Distance Reiki for Pets — $66.66</option>
+              <option value="Energy Clearing &amp; Spiritual Tools">Energy Clearing &amp; Spiritual Tools</option>
+              <option value="Sacred Hold Membership">Sacred Hold Membership</option>
+            </select>
+          </div>
+        </div>
+        <div class="intake-field">
+          <label for="intake-reason">What brings you in?</label>
+          <textarea id="intake-reason" name="reason" rows="3" placeholder="Share as much or as little as you'd like..." required></textarea>
+        </div>
+        <div class="intake-field">
+          <label for="intake-health">Any health conditions Salvia should know about? <span class="intake-optional">(optional)</span></label>
+          <textarea id="intake-health" name="health" rows="2" placeholder="Physical, mental, or emotional — anything relevant to your session..."></textarea>
+        </div>
+        <div class="intake-row">
+          <div class="intake-field">
+            <label for="intake-ec-name">Emergency Contact Name</label>
+            <input type="text" id="intake-ec-name" name="emergency_contact_name" placeholder="Full name">
+          </div>
+          <div class="intake-field">
+            <label for="intake-ec-phone">Emergency Contact Phone</label>
+            <input type="tel" id="intake-ec-phone" name="emergency_contact_phone" placeholder="714-000-0000">
+          </div>
+        </div>
+        <div class="intake-waiver">
+          <label class="waiver-label">
+            <input type="checkbox" name="waiver" required>
+            <span>I understand that sessions are for spiritual support and personal wellness only, and are not a substitute for medical or psychological treatment.</span>
+          </label>
+        </div>
+        <button type="submit" class="btn-primary magnetic-btn intake-submit">Submit &amp; Continue to Payment</button>
+      </form>
     </div>
   </section>
 
