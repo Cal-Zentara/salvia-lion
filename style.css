@@ -1382,6 +1382,30 @@ em {
   accent-color: var(--teal);
 }
 .intake-submit { width: 100%; justify-content: center; }
+.intake-payment-step {
+  max-width: 680px;
+  margin: 48px auto 0;
+  border-top: 1px solid rgba(20,184,166,0.15);
+  padding-top: 40px;
+  text-align: center;
+}
+.intake-payment-label {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.intake-payment-sub {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+.intake-payment-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 @media (max-width: 600px) {
   .intake-row { grid-template-columns: 1fr; }
 }
