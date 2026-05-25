@@ -411,7 +411,7 @@ Nancy confirmed she uses Cho Ku Rei and Sei He Ki to charge every bath salt bag 
 
 **Tool decision:** Google Calendar Appointment Schedule (free, no third-party needed).
 
-**Status:** ✅ Booking page created 2026-04-30 via iPad Safari (desktop mode). Timezone still set to GMT+00 — needs to be changed to Pacific Time on a desktop. Description also needs updating. Both fixes require desktop browser.
+**Status:** ✅ Booking page created 2026-04-30. Timezone fixed to Pacific Time 2026-05-25.
 
 **Next action:** Embed Nancy's booking link on site once she shares it. Also fix timezone + description on desktop.
 
@@ -421,8 +421,8 @@ Nancy confirmed she uses Cho Ku Rei and Sei He Ki to charge every bath salt bag 
 - ~~**Bill Nancy $57.25** for stamp order #5486467~~ ✅ Done 2026-04-29
 - ~~Bath salts Reel~~ ✅ Built + approved 2026-04-30 — Nancy posts 2026-05-01 (full moon)
 - ~~Set up booking calendar~~ ✅ Google Calendar Appointment Schedule created 2026-04-30
-- Fix booking page timezone (GMT → Pacific) + description — needs desktop browser
-- Nancy to share booking link → embed on site as "Book a Session" button
+- ~~Fix booking page timezone (GMT → Pacific) + description~~ ✅ Done 2026-05-25
+- ~~Nancy to share booking link → embed on site as "Book a Session" button~~ ✅ Done 2026-05-25 — https://calendar.app.google/zyUNUM2JjPNhdqrD8
 - Confirm 10% Lavender Moon discount with Dalena before site goes live
 - Nancy opens business checking account → connect to Stripe for bath salt payments
 - Nancy creates PandaDoc account (Lionsalvia@gmail.com) → upload intake PDF → set signature field → embed link on site
