@@ -22,10 +22,10 @@
         <li><a href="#how">How It Works</a></li>
         <li><a href="#shop">Shop</a></li>
         <li><a href="#testimonials">Stories</a></li>
-        <li><a href="#intake">Book</a></li>
+        <li><a href="/intake">Book</a></li>
       </ul>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
-      <a href="https://calendar.app.google/zyUNUM2JjPNhdqrD8" target="_blank" rel="noopener" class="btn-book magnetic-btn">Book a Session</a>
+      <a href="/intake" class="btn-book magnetic-btn">Book a Session</a>
       <button class="nav-hamburger" id="navHamburger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -47,7 +47,7 @@
         when life feels heavy and you need to find your way back to yourself.
       </p>
       <div class="hero-buttons">
-        <a href="https://calendar.app.google/zyUNUM2JjPNhdqrD8" target="_blank" rel="noopener" class="btn-primary magnetic-btn">Book a Session</a>
+        <a href="/intake" class="btn-primary magnetic-btn">Book a Session</a>
         <a href="#services" class="btn-ghost">See What I Offer</a>
       </div>
     </div>
@@ -154,7 +154,7 @@
           <p>Salvia holds the highest level of Reiki training — a depth of energetic connection and intuition that goes beyond a standard session. Release what you've been carrying and leave calm, grounded, and restored.</p>
           <p class="service-credential">Certified Reiki Master</p>
           <div class="service-pricing"><span>30 min — $88.88</span><span>60 min — $168.88</span></div>
-          <a href="#intake" class="collab-book-btn">Fill Out Form First →</a>
+          <a href="/intake" class="collab-book-btn">Fill Out Form First →</a>
         </div>
 
         <div class="service-card tilt-card">
@@ -186,7 +186,7 @@
           <h3>Distance Reiki for Pets</h3>
           <p>Pets feel everything we feel — and carry it. This is a remote session for your animal: no travel, no handling. They just need to be home. Afterward I send you a full email report of what came up and what I noticed.</p>
           <div class="service-pricing"><span>Distance session — $66.66</span></div>
-          <a href="#intake" class="collab-book-btn">Fill Out Form First →</a>
+          <a href="/intake" class="collab-book-btn">Fill Out Form First →</a>
         </div>
 
       </div>
@@ -425,77 +425,6 @@
     </div>
   </section>
 
-  <!-- ─── INTAKE FORM ─────────────────────────────────────────── -->
-  <section class="intake reveal" id="intake">
-    <div class="container">
-      <p class="section-eyebrow">Before Your Session</p>
-      <h2 class="section-title">Tell Salvia a little <em>about you</em></h2>
-      <p class="intake-sub">Fill this out before booking. It helps Salvia show up fully prepared for you.</p>
-      <form class="intake-form" action="https://formspree.io/f/mdajwdro" method="POST">
-        <div class="intake-row">
-          <div class="intake-field">
-            <label for="intake-name">Full Name</label>
-            <input type="text" id="intake-name" name="name" placeholder="Your full name" required>
-          </div>
-          <div class="intake-field">
-            <label for="intake-email">Email</label>
-            <input type="email" id="intake-email" name="email" placeholder="your@email.com" required>
-          </div>
-        </div>
-        <div class="intake-row">
-          <div class="intake-field">
-            <label for="intake-phone">Phone Number</label>
-            <input type="tel" id="intake-phone" name="phone" placeholder="714-000-0000" required>
-          </div>
-          <div class="intake-field">
-            <label for="intake-service">Service You're Booking</label>
-            <select id="intake-service" name="service" required>
-              <option value="" disabled selected>Choose a service</option>
-              <option value="Reiki 30 min — $88.88">Reiki 30 min — $88.88</option>
-              <option value="Reiki 60 min — $168.88">Reiki 60 min — $168.88</option>
-              <option value="Distance Reiki for Pets — $66.66">Distance Reiki for Pets — $66.66</option>
-              <option value="Energy Clearing &amp; Spiritual Tools">Energy Clearing &amp; Spiritual Tools</option>
-              <option value="Sacred Hold Membership">Sacred Hold Membership</option>
-            </select>
-          </div>
-        </div>
-        <div class="intake-field">
-          <label for="intake-reason">What brings you in?</label>
-          <textarea id="intake-reason" name="reason" rows="3" placeholder="Share as much or as little as you'd like..." required></textarea>
-        </div>
-        <div class="intake-field">
-          <label for="intake-health">Any health conditions Salvia should know about? <span class="intake-optional">(optional)</span></label>
-          <textarea id="intake-health" name="health" rows="2" placeholder="Physical, mental, or emotional — anything relevant to your session..."></textarea>
-        </div>
-        <div class="intake-row">
-          <div class="intake-field">
-            <label for="intake-ec-name">Emergency Contact Name</label>
-            <input type="text" id="intake-ec-name" name="emergency_contact_name" placeholder="Full name">
-          </div>
-          <div class="intake-field">
-            <label for="intake-ec-phone">Emergency Contact Phone</label>
-            <input type="tel" id="intake-ec-phone" name="emergency_contact_phone" placeholder="714-000-0000">
-          </div>
-        </div>
-        <div class="intake-waiver">
-          <label class="waiver-label">
-            <input type="checkbox" name="waiver" required>
-            <span>I understand that sessions are for spiritual support and personal wellness only, and are not a substitute for medical or psychological treatment.</span>
-          </label>
-        </div>
-        <button type="submit" class="btn-primary magnetic-btn intake-submit">Submit Form</button>
-      </form>
-      <div class="intake-payment-step">
-        <p class="intake-payment-label">Step 2 — Pay for your session</p>
-        <p class="intake-payment-sub">Submit the form above first, then choose your session below.</p>
-        <div class="intake-payment-links">
-          <a href="https://buy.stripe.com/7sY6oG80VaWU1qCdqRcbC07" target="_blank" rel="noopener" class="btn-primary magnetic-btn">Reiki — 30 min · $88.88</a>
-          <a href="https://buy.stripe.com/8x2eVc2GB4yw5GSeuVcbC08" target="_blank" rel="noopener" class="btn-primary magnetic-btn">Reiki — 60 min · $168.88</a>
-          <a href="https://buy.stripe.com/dRm9AS1CxgheglweuVcbC09" target="_blank" rel="noopener" class="btn-primary magnetic-btn">Pet Reiki · $66.66</a>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- ─── CTA ───────────────────────────────────────────────────── -->
   <section class="cta-section reveal" id="cta">
@@ -503,7 +432,7 @@
     <div class="container">
       <h2 class="cta-headline">There's a reason you were <em>led here.</em></h2>
       <p class="cta-sub">"Why not see what comes up for you and decide how you feel about it after." — Salvia</p>
-      <a href="https://calendar.app.google/zyUNUM2JjPNhdqrD8" target="_blank" rel="noopener" class="btn-primary btn-large magnetic-btn">Book a Session</a>
+      <a href="/intake" class="btn-primary btn-large magnetic-btn">Book a Session</a>
       <a href="mailto:Lionsalvia@gmail.com" class="btn-ghost magnetic-btn" style="margin-top:1rem;">Send a Message</a>
       <div class="cta-contact">
         <a href="tel:7146961384">714-696-1384</a>
@@ -537,7 +466,7 @@
       <li><a href="#how">How It Works</a></li>
       <li><a href="#shop">Shop</a></li>
       <li><a href="#testimonials">Stories</a></li>
-      <li><a href="https://calendar.app.google/zyUNUM2JjPNhdqrD8" target="_blank" rel="noopener" class="mobile-nav-cta">Book a Session</a></li>
+      <li><a href="/intake" class="mobile-nav-cta">Book a Session</a></li>
     </ul>
   </div>
 
