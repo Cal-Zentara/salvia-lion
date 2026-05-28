@@ -38,6 +38,8 @@ body { padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inse
   --text-muted: #8faaa8;
   --card-bg:    rgba(20, 184, 166, 0.04);
   --card-border:rgba(20, 184, 166, 0.15);
+  --teal:       #14b8a6;
+  --accent:     #14b8a6;
   --radius:     16px;
   --font-head:  'Cormorant Garamond', serif;
   --font-body:  'Lato', sans-serif;
@@ -514,6 +516,34 @@ em {
 .services {
   padding: 70px 0;
   background: var(--bg-2);
+}
+
+.service-tabs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 52px;
+}
+
+.service-tab {
+  padding: 9px 22px;
+  border: 1px solid var(--card-border);
+  border-radius: 100px;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.service-tab:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: var(--card-bg);
 }
 
 .services-grid {
@@ -1479,6 +1509,8 @@ body.light-mode {
   --text-muted: #5c4a32;
   --card-bg:    rgba(255, 250, 240, 0.8);
   --card-border:rgba(168, 120, 42, 0.2);
+  --teal:       #0d9488;
+  --accent:     #0d9488;
 }
 
 body.light-mode .nav {
@@ -1492,7 +1524,11 @@ body.light-mode .nav-logo {
 
 body.light-mode .hero-lion {
   mix-blend-mode: multiply;
-  opacity: 0.25;
+  opacity: 0.45;
+}
+
+body.light-mode .hero-glow {
+  background: radial-gradient(ellipse, rgba(123, 45, 100, 0.08) 0%, rgba(168, 120, 42, 0.04) 50%, transparent 70%);
 }
 
 body.light-mode .about-banner {
