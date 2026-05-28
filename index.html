@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="pics/Webpage/lion_stamp_v5.png" type="image/png" />
 </head>
 <body>
 
@@ -143,9 +144,15 @@
     <div class="container">
       <p class="section-eyebrow">What I Offer</p>
       <h2 class="section-title">Four paths to <em>peace</em></h2>
+      <nav class="service-tabs" aria-label="Jump to service">
+        <a href="#service-reiki" class="service-tab">Reiki</a>
+        <a href="#service-tarot" class="service-tab">Tarot</a>
+        <a href="#service-tools" class="service-tab">Energy &amp; Tools</a>
+        <a href="#service-pets" class="service-tab">For Pets</a>
+      </nav>
       <div class="services-grid">
 
-        <div class="service-card tilt-card">
+        <div class="service-card tilt-card" id="service-reiki">
           <div class="card-glow"></div>
           <div class="card-img-wrap">
             <img src="pics/Webpage/Book%20shelf.png" alt="Reiki Healing" class="card-img books-img">
@@ -157,7 +164,7 @@
           <a href="/intake" class="collab-book-btn">Fill Out Form First →</a>
         </div>
 
-        <div class="service-card tilt-card">
+        <div class="service-card tilt-card" id="service-tarot">
           <div class="card-glow"></div>
           <div class="card-img-wrap">
             <img src="pics/Webpage/service-tarot-44.png" alt="Tarot Readings" class="card-img" style="object-position: center 65%;">
@@ -169,7 +176,7 @@
           <a href="https://calendar.app.google/1MGnax6DEzcqBokH6" target="_blank" rel="noopener" class="collab-book-btn">Book with Lavender Moon →</a>
         </div>
 
-        <div class="service-card tilt-card">
+        <div class="service-card tilt-card" id="service-tools">
           <div class="card-glow"></div>
           <div class="card-img-wrap">
             <img src="pics/Webpage/Energy%20Clearing.png" alt="Energy Clearing" class="card-img" style="object-position: center 40%;">
@@ -178,7 +185,7 @@
           <p>Sage clearing, space clearing, crystal work, Epsom salt rituals, chakra balancing, aura cleansing, breathwork, meditation, visualization, journaling, and full and new moon ceremonies — tools chosen for you based on what you need most.</p>
         </div>
 
-        <div class="service-card tilt-card">
+        <div class="service-card tilt-card" id="service-pets">
           <div class="card-glow"></div>
           <div class="card-img-wrap">
             <img src="pics/Webpage/cat-reiki.jpg" alt="Distance Reiki for Pets" class="card-img" style="object-position: center 30%;">
