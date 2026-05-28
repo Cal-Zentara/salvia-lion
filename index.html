@@ -12,6 +12,8 @@
 </head>
 <body>
 
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
   <!-- ─── NAV ─────────────────────────────────────────────────── -->
   <nav class="nav">
     <div class="nav-inner">
@@ -32,6 +34,8 @@
       </button>
     </div>
   </nav>
+
+  <main id="main-content">
 
   <!-- ─── HERO ─────────────────────────────────────────────────── -->
   <section class="hero">
@@ -394,38 +398,38 @@
       <div class="faq-list">
 
         <div class="faq-item">
-          <button class="faq-question">Do I need to believe in this for it to work?</button>
-          <div class="faq-answer"><p>"There has to be a reason why you were led to try this. Why not see what comes up for you and decide how you feel about it after." — Salvia</p></div>
+          <button class="faq-question" aria-controls="faq-a1">Do I need to believe in this for it to work?</button>
+          <div class="faq-answer" id="faq-a1"><p>"There has to be a reason why you were led to try this. Why not see what comes up for you and decide how you feel about it after." — Salvia</p></div>
         </div>
 
         <div class="faq-item">
-          <button class="faq-question">What actually happens in a session?</button>
-          <div class="faq-answer"><p>Before your session, Salvia meditates and calls in her guides on your behalf. During, she calls in your guides too — so you're all working together. She notes every feeling, sensation, and visual that comes up. Afterward she reaches out to debrief, and sends you a summary email with the cards pulled and information on the chakras that came up.</p></div>
+          <button class="faq-question" aria-controls="faq-a2">What actually happens in a session?</button>
+          <div class="faq-answer" id="faq-a2"><p>Before your session, Salvia meditates and calls in her guides on your behalf. During, she calls in your guides too — so you're all working together. She notes every feeling, sensation, and visual that comes up. Afterward she reaches out to debrief, and sends you a summary email with the cards pulled and information on the chakras that came up.</p></div>
         </div>
 
         <div class="faq-item">
-          <button class="faq-question">Can sessions be done remotely?</button>
-          <div class="faq-answer"><p>Yes — distance Reiki is just as effective as in-person. Energy isn't limited by location. Salvia offers both options depending on what works best for you.</p></div>
+          <button class="faq-question" aria-controls="faq-a3">Can sessions be done remotely?</button>
+          <div class="faq-answer" id="faq-a3"><p>Yes — distance Reiki is just as effective as in-person. Energy isn't limited by location. Salvia offers both options depending on what works best for you.</p></div>
         </div>
 
         <div class="faq-item">
-          <button class="faq-question">What will I feel during or after a session?</button>
-          <div class="faq-answer"><p>Most people leave feeling deeply relaxed or sleepy — like something they've been carrying finally put down. Some feel clarity, some feel emotional, some feel nothing in the moment but notice shifts in the days that follow. Every experience is different.</p></div>
+          <button class="faq-question" aria-controls="faq-a4">What will I feel during or after a session?</button>
+          <div class="faq-answer" id="faq-a4"><p>Most people leave feeling deeply relaxed or sleepy — like something they've been carrying finally put down. Some feel clarity, some feel emotional, some feel nothing in the moment but notice shifts in the days that follow. Every experience is different.</p></div>
         </div>
 
         <div class="faq-item">
-          <button class="faq-question">How many sessions do I need?</button>
-          <div class="faq-answer"><p>Start with one and see how you feel. Some people come once for clarity, others come regularly as part of their wellness practice. There's no pressure — Salvia works at your pace.</p></div>
+          <button class="faq-question" aria-controls="faq-a5">How many sessions do I need?</button>
+          <div class="faq-answer" id="faq-a5"><p>Start with one and see how you feel. Some people come once for clarity, others come regularly as part of their wellness practice. There's no pressure — Salvia works at your pace.</p></div>
         </div>
 
         <div class="faq-item">
-          <button class="faq-question">What does it mean that you're a Reiki Master?</button>
-          <div class="faq-answer"><p>Most people who offer Reiki have completed Levels 1 or 2. A Reiki Master (Level 3) has done the advanced training — learning the master symbol and reaching a deeper level of energetic connection. The energy coming through is different. If you're investing in this kind of healing, working with a master matters.</p></div>
+          <button class="faq-question" aria-controls="faq-a6">What does it mean that you're a Reiki Master?</button>
+          <div class="faq-answer" id="faq-a6"><p>Most people who offer Reiki have completed Levels 1 or 2. A Reiki Master (Level 3) has done the advanced training — learning the master symbol and reaching a deeper level of energetic connection. The energy coming through is different. If you're investing in this kind of healing, working with a master matters.</p></div>
         </div>
 
         <div class="faq-item">
-          <button class="faq-question">Is this a substitute for medical treatment?</button>
-          <div class="faq-answer"><p>No. Sessions are intended for spiritual support and personal wellness. They complement — not replace — medical or psychological care. If you're dealing with a health concern, please consult a licensed professional.</p></div>
+          <button class="faq-question" aria-controls="faq-a7">Is this a substitute for medical treatment?</button>
+          <div class="faq-answer" id="faq-a7"><p>No. Sessions are intended for spiritual support and personal wellness. They complement — not replace — medical or psychological care. If you're dealing with a health concern, please consult a licensed professional.</p></div>
         </div>
 
       </div>
@@ -464,8 +468,10 @@
     </div>
   </footer>
 
+  </main>
+
   <!-- ─── MOBILE NAV OVERLAY ──────────────────────────────────── -->
-  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" role="dialog" aria-label="Navigation menu" aria-modal="true">
     <ul class="mobile-nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>

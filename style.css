@@ -45,6 +45,30 @@ body { padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inse
   --font-body:  'Lato', sans-serif;
 }
 
+/* ─── ACCESSIBILITY ──────────────────────────────────────────── */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  background: var(--gold);
+  color: var(--bg);
+  padding: 10px 20px;
+  border-radius: 0 0 8px 8px;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  z-index: 9999;
+  transition: top 0.2s;
+}
+.skip-link:focus { top: 0; }
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
 /* ─── GLOBAL ─────────────────────────────────────────────────── */
 html { scroll-behavior: smooth; }
 
