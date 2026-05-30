@@ -219,7 +219,14 @@ function initScentSelector() {
     const bundleOnly = pill.dataset.bundleOnly === 'true';
     singleEls.forEach(el => { el.style.display = bundleOnly ? 'none' : ''; });
     if (bundleNote) bundleNote.style.display = bundleOnly ? 'block' : 'none';
-    if (orderBtn && pill.dataset.link) orderBtn.href = pill.dataset.link;
+    if (orderBtn) {
+      if (bundleOnly) {
+        orderBtn.style.display = 'none';
+      } else {
+        orderBtn.style.display = '';
+        if (pill.dataset.link) orderBtn.href = pill.dataset.link;
+      }
+    }
   }
 
   function swapImage(pill) {
