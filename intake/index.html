@@ -17,7 +17,6 @@
       --purple: #8b5cf6;
       --text: #e8f0ef;
       --text-muted: #8faaa8;
-      --gold: #c9a24a;
       --border: rgba(20,184,166,0.15);
     }
 
@@ -27,12 +26,17 @@
       font-family: 'Lato', sans-serif;
       font-weight: 300;
       min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding: 60px 24px 100px;
     }
 
     .page-header {
       text-align: center;
-      margin-bottom: 56px;
+      margin-bottom: 48px;
+      width: 100%;
+      max-width: 640px;
     }
     .back-link {
       display: inline-block;
@@ -66,68 +70,52 @@
       line-height: 1.7;
     }
 
-    /* ── STEPS ── */
-    .steps-bar {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 56px;
-      font-size: 0.8rem;
-      letter-spacing: 0.05em;
-    }
-    .step-pill {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 16px;
-      border-radius: 100px;
-      border: 1px solid var(--border);
-      color: var(--text-muted);
-    }
-    .step-pill.active {
-      border-color: var(--teal);
-      color: var(--teal);
-      background: rgba(20,184,166,0.08);
-    }
-    .step-divider { color: var(--border); font-size: 1rem; }
-
-    /* ── FORM ── */
-    .form-wrap {
+    /* ── FORM CARD ── */
+    .form-card {
+      width: 100%;
       max-width: 640px;
-      margin: 0 auto;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 44px 40px;
     }
+
     .form-section-label {
       font-size: 0.75rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: var(--teal);
-      margin-bottom: 20px;
+      margin-bottom: 24px;
       padding-bottom: 12px;
       border-bottom: 1px solid var(--border);
     }
+
     .intake-form {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      margin-bottom: 48px;
     }
+
     .intake-row {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
     }
+
     .intake-field {
       display: flex;
       flex-direction: column;
       gap: 8px;
     }
+
     .intake-field label {
       font-size: 0.82rem;
       color: var(--text-muted);
       letter-spacing: 0.04em;
     }
+
     .optional { opacity: 0.5; font-size: 0.78rem; }
+
     .intake-field input,
     .intake-field select,
     .intake-field textarea {
@@ -143,19 +131,95 @@
       outline: none;
       width: 100%;
     }
+
     .intake-field input::placeholder,
     .intake-field textarea::placeholder { color: rgba(143,170,168,0.35); }
+
     .intake-field input:focus,
     .intake-field select:focus,
     .intake-field textarea:focus { border-color: var(--teal); }
+
     .intake-field select option { background: #0f1923; color: var(--text); }
 
+    /* ── SERVICE SELECTOR ── */
+    .service-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .service-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+      user-select: none;
+    }
+
+    .service-item input[type="radio"] { display: none; }
+
+    .service-item:hover {
+      border-color: rgba(20,184,166,0.4);
+      background: rgba(20,184,166,0.04);
+    }
+
+    .service-item.checked {
+      border-color: var(--teal);
+      background: rgba(20,184,166,0.06);
+    }
+
+    .svc-left { display: flex; align-items: center; gap: 12px; }
+
+    .svc-dot {
+      width: 18px;
+      height: 18px;
+      min-width: 18px;
+      border-radius: 50%;
+      border: 1.5px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.6rem;
+      color: transparent;
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .service-item.checked .svc-dot {
+      border-color: var(--teal);
+      background: var(--teal);
+      color: #07090c;
+    }
+
+    .svc-name {
+      font-size: 0.88rem;
+      color: var(--text);
+    }
+
+    .svc-right { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+
+    .svc-duration {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .svc-price {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      color: var(--teal);
+    }
+
+    /* ── WAIVER ── */
     .waiver-box {
       border: 1px solid var(--border);
       border-radius: 10px;
       padding: 18px;
       background: rgba(255,255,255,0.02);
     }
+
     .waiver-label {
       display: flex;
       align-items: flex-start;
@@ -165,6 +229,7 @@
       color: var(--text-muted);
       line-height: 1.6;
     }
+
     .waiver-label input[type="checkbox"] {
       margin-top: 3px;
       width: 16px;
@@ -173,6 +238,7 @@
       accent-color: var(--teal);
     }
 
+    /* ── SUBMIT ── */
     .btn-submit {
       width: 100%;
       padding: 16px;
@@ -186,89 +252,78 @@
       letter-spacing: 0.05em;
       cursor: pointer;
       transition: opacity 0.2s;
+      margin-top: 8px;
     }
     .btn-submit:hover { opacity: 0.85; }
+    .btn-submit:disabled { opacity: 0.5; cursor: not-allowed; }
 
-    /* ── PAYMENT STEP ── */
-    .payment-step {
-      max-width: 640px;
-      margin: 0 auto;
-      border-top: 1px solid var(--border);
-      padding-top: 48px;
-    }
-    .payment-intro {
+    /* ── CONFIRMATION SCREEN ── */
+    .confirm-screen {
+      display: none;
       text-align: center;
-      margin-bottom: 32px;
+      padding: 16px 0;
     }
-    .payment-intro h2 {
+    .confirm-screen.visible { display: block; }
+    .form-body.hidden { display: none; }
+
+    .confirm-icon {
+      font-size: 2.8rem;
+      margin-bottom: 24px;
+    }
+
+    .confirm-screen h2 {
       font-family: 'Cormorant Garamond', serif;
       font-weight: 300;
-      font-size: 1.8rem;
-      margin-bottom: 10px;
+      font-size: 2rem;
+      margin-bottom: 14px;
+      line-height: 1.2;
     }
-    .payment-intro h2 em { font-style: italic; color: var(--teal); }
-    .payment-intro p {
+
+    .confirm-screen h2 em { font-style: italic; color: var(--teal); }
+
+    .confirm-screen p {
       color: var(--text-muted);
-      font-size: 0.9rem;
-      line-height: 1.6;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-bottom: 32px;
+      max-width: 420px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    .payment-cards {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-    .payment-card {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px 24px;
-      background: var(--surface);
-      text-decoration: none;
-      color: var(--text);
-      transition: border-color 0.2s, background 0.2s;
-    }
-    .payment-card:hover {
-      border-color: var(--teal);
-      background: rgba(20,184,166,0.06);
-    }
-    .payment-card-name {
+
+    .confirm-btn {
+      display: inline-block;
+      background: var(--teal);
+      color: #07090c;
+      font-family: 'Lato', sans-serif;
       font-size: 1rem;
       font-weight: 400;
+      letter-spacing: 0.05em;
+      padding: 16px 40px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: opacity 0.2s;
     }
-    .payment-card-name span {
-      display: block;
+    .confirm-btn:hover { opacity: 0.85; }
+
+    .confirm-note {
+      margin-top: 16px;
       font-size: 0.8rem;
-      color: var(--text-muted);
-      font-weight: 300;
-      margin-top: 4px;
-    }
-    .payment-card-price {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.4rem;
-      font-weight: 300;
-      color: var(--teal);
-      white-space: nowrap;
-    }
-    .payment-card-arrow {
-      color: var(--text-muted);
-      margin-left: 16px;
-      font-size: 1.1rem;
+      color: rgba(143,170,168,0.5);
     }
 
     /* ── FOOTER ── */
     .page-footer {
       text-align: center;
-      margin-top: 60px;
+      margin-top: 48px;
       color: rgba(143,170,168,0.35);
       font-size: 0.78rem;
     }
     .page-footer a { color: var(--teal); text-decoration: none; }
 
     @media (max-width: 580px) {
+      .form-card { padding: 32px 22px; }
       .intake-row { grid-template-columns: 1fr; }
-      .steps-bar { flex-wrap: wrap; }
     }
   </style>
 </head>
@@ -276,22 +331,17 @@
 
   <div class="page-header">
     <a href="/" class="back-link">← Back to Salvia Lion</a>
-    <p class="page-eyebrow">Start Here</p>
-    <h1 class="page-title">Book a <em>Session</em></h1>
-    <p class="page-sub">Fill out the form below so Salvia can show up fully prepared for you. Then choose your session and pay to confirm.</p>
+    <p class="page-eyebrow">Step 1 of 3</p>
+    <h1 class="page-title">Before We <em>Begin</em></h1>
+    <p class="page-sub">Fill this out so Salvia can show up fully prepared for you. Then you'll pay to confirm and pick your time.</p>
   </div>
 
-  <div class="steps-bar">
-    <div class="step-pill active">1 · Fill out form</div>
-    <div class="step-divider">→</div>
-    <div class="step-pill">2 · Pay to confirm</div>
-    <div class="step-divider">→</div>
-    <div class="step-pill">3 · Pick your time</div>
-  </div>
+  <div class="form-card">
 
-  <div class="form-wrap">
-    <p class="form-section-label">Step 1 — About You</p>
-    <form class="intake-form" action="https://formspree.io/f/mdajwdro" method="POST">
+    <!-- FORM -->
+    <form class="intake-form form-body" id="intakeForm" action="https://formspree.io/f/mdajwdro" method="POST">
+
+      <p class="form-section-label">About You</p>
 
       <div class="intake-row">
         <div class="intake-field">
@@ -304,21 +354,39 @@
         </div>
       </div>
 
-      <div class="intake-row">
-        <div class="intake-field">
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" placeholder="714-000-0000" required>
-        </div>
-        <div class="intake-field">
-          <label for="service">Service You're Booking</label>
-          <select id="service" name="service" required>
-            <option value="" disabled selected>Choose a service</option>
-            <option value="Reiki 30 min — $88.88">Reiki 30 min — $88.88</option>
-            <option value="Reiki 60 min — $168.88">Reiki 60 min — $168.88</option>
-            <option value="Distance Reiki for Pets — $66.66">Distance Reiki for Pets — $66.66</option>
-            <option value="Energy Clearing &amp; Spiritual Tools">Energy Clearing &amp; Spiritual Tools</option>
-            <option value="Sacred Hold Membership">Sacred Hold Membership</option>
-          </select>
+      <div class="intake-field">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="714-000-0000" required>
+      </div>
+
+      <div class="intake-field">
+        <label>Which session are you booking?</label>
+        <div class="service-list" id="serviceList">
+          <label class="service-item">
+            <input type="radio" name="service" value="Reiki 30 min — $88.88">
+            <span class="svc-left"><span class="svc-dot">✓</span><span class="svc-name">Reiki Session</span></span>
+            <span class="svc-right"><span class="svc-duration">30 min</span><span class="svc-price">$88.88</span></span>
+          </label>
+          <label class="service-item">
+            <input type="radio" name="service" value="Reiki 60 min — $168.88">
+            <span class="svc-left"><span class="svc-dot">✓</span><span class="svc-name">Reiki Session</span></span>
+            <span class="svc-right"><span class="svc-duration">60 min</span><span class="svc-price">$168.88</span></span>
+          </label>
+          <label class="service-item">
+            <input type="radio" name="service" value="Distance Reiki for Pets — $66.66">
+            <span class="svc-left"><span class="svc-dot">✓</span><span class="svc-name">Distance Reiki for Pets</span></span>
+            <span class="svc-right"><span class="svc-price">$66.66</span></span>
+          </label>
+          <label class="service-item">
+            <input type="radio" name="service" value="Sacred Hold Membership — $444/mo">
+            <span class="svc-left"><span class="svc-dot">✓</span><span class="svc-name">Sacred Hold — Founding</span></span>
+            <span class="svc-right"><span class="svc-price">$444/mo</span></span>
+          </label>
+          <label class="service-item">
+            <input type="radio" name="service" value="Sacred Hold Membership — $668.68/mo">
+            <span class="svc-left"><span class="svc-dot">✓</span><span class="svc-name">Sacred Hold — Standard</span></span>
+            <span class="svc-right"><span class="svc-price">$668.68/mo</span></span>
+          </label>
         </div>
       </div>
 
@@ -350,62 +418,104 @@
         </label>
       </div>
 
-      <button type="submit" class="btn-submit">Submit Form</button>
+      <button type="submit" class="btn-submit" id="submitBtn">Continue to Payment →</button>
     </form>
-  </div>
 
-  <div class="payment-step">
-    <div class="payment-intro">
-      <h2>Step 2 — <em>Pay to Confirm</em></h2>
-      <p>Choose your session below and complete payment. Once done, use the booking link in Step 3 to pick your time.</p>
+    <!-- CONFIRMATION — session payment -->
+    <div class="confirm-screen" id="confirmSession">
+      <div class="confirm-icon">✦</div>
+      <h2>Details <em>received.</em></h2>
+      <p>Complete your payment below to confirm your session. After payment, you'll pick your date and time on Salvia's calendar.</p>
+      <a href="#" target="_blank" rel="noopener" class="confirm-btn" id="sessionPayBtn">Complete Payment →</a>
+      <p class="confirm-note">You'll be taken straight to the booking calendar after payment.</p>
     </div>
-    <div class="payment-cards">
-      <a href="https://buy.stripe.com/7sY6oG80VaWU1qCdqRcbC07" target="_blank" rel="noopener" class="payment-card">
-        <div class="payment-card-name">
-          Reiki Session — 30 min
-          <span>Distance or in-person · Certified Reiki Master</span>
-        </div>
-        <div style="display:flex;align-items:center;">
-          <div class="payment-card-price">$88.88</div>
-          <div class="payment-card-arrow">→</div>
-        </div>
-      </a>
-      <a href="https://buy.stripe.com/8x2eVc2GB4yw5GSeuVcbC08" target="_blank" rel="noopener" class="payment-card">
-        <div class="payment-card-name">
-          Reiki Session — 60 min
-          <span>Distance or in-person · Certified Reiki Master</span>
-        </div>
-        <div style="display:flex;align-items:center;">
-          <div class="payment-card-price">$168.88</div>
-          <div class="payment-card-arrow">→</div>
-        </div>
-      </a>
-      <a href="https://buy.stripe.com/dRm9AS1CxgheglweuVcbC09" target="_blank" rel="noopener" class="payment-card">
-        <div class="payment-card-name">
-          Distance Reiki for Pets
-          <span>Remote session · Full report emailed after</span>
-        </div>
-        <div style="display:flex;align-items:center;">
-          <div class="payment-card-price">$66.66</div>
-          <div class="payment-card-arrow">→</div>
-        </div>
-      </a>
-    </div>
-  </div>
 
-  <div class="payment-step" style="margin-top:48px;">
-    <div class="payment-intro">
-      <h2>Step 3 — <em>Pick Your Time</em></h2>
-      <p>Payment received? Click below to choose your session time on Salvia's calendar.</p>
+    <!-- CONFIRMATION — membership -->
+    <div class="confirm-screen" id="confirmMembership">
+      <div class="confirm-icon">✦</div>
+      <h2>Details <em>received.</em></h2>
+      <p>Complete your membership payment below. Once confirmed, Salvia will reach out to schedule your first session.</p>
+      <a href="#" target="_blank" rel="noopener" class="confirm-btn" id="memberPayBtn">Complete Payment →</a>
+      <p class="confirm-note">Salvia will contact you within 24 hours to book your first session.</p>
     </div>
-    <div style="text-align:center;margin-top:24px;">
-      <a href="https://calendar.app.google/zyUNUM2JjPNhdqrD8" target="_blank" rel="noopener" class="btn-submit" style="display:inline-block;width:auto;padding:16px 40px;text-decoration:none;">Book Your Time →</a>
-    </div>
+
   </div>
 
   <div class="page-footer">
     <p>Questions? <a href="mailto:Lionsalvia@gmail.com">Lionsalvia@gmail.com</a> · <a href="tel:7146961384">714-696-1384</a></p>
   </div>
+
+  <script>
+    const form = document.getElementById('intakeForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const confirmSession = document.getElementById('confirmSession');
+    const confirmMembership = document.getElementById('confirmMembership');
+    const sessionPayBtn = document.getElementById('sessionPayBtn');
+    const memberPayBtn = document.getElementById('memberPayBtn');
+
+    const sessionLinks = {
+      'Reiki 30 min — $88.88': 'https://buy.stripe.com/7sY6oG80VaWU1qCdqRcbC07',
+      'Reiki 60 min — $168.88': 'https://buy.stripe.com/8x2eVc2GB4yw5GSeuVcbC08',
+      'Distance Reiki for Pets — $66.66': 'https://buy.stripe.com/dRm9AS1CxgheglweuVcbC09'
+    };
+
+    const memberLinks = {
+      'Sacred Hold Membership — $444/mo': 'https://buy.stripe.com/dRm00ia93e96fhsaeFcbC05',
+      'Sacred Hold Membership — $668.68/mo': 'https://buy.stripe.com/28E7sK0yt1mk3yKfyZcbC06'
+    };
+
+    // Highlight selected service
+    document.querySelectorAll('.service-item input').forEach(radio => {
+      radio.addEventListener('change', () => {
+        document.querySelectorAll('.service-item').forEach(el => el.classList.remove('checked'));
+        radio.closest('.service-item').classList.add('checked');
+      });
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const selected = form.querySelector('[name="service"]:checked');
+      if (!selected) {
+        alert('Please select a service.');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending…';
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (res.ok) {
+          form.classList.add('hidden');
+          const val = selected.value;
+
+          if (memberLinks[val]) {
+            memberPayBtn.href = memberLinks[val];
+            confirmMembership.classList.add('visible');
+          } else {
+            sessionPayBtn.href = sessionLinks[val] || '#';
+            confirmSession.classList.add('visible');
+          }
+
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Continue to Payment →';
+          alert('Something went wrong. Please try again or text 714-696-1384.');
+        }
+      } catch {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Continue to Payment →';
+        alert('Something went wrong. Please try again or text 714-696-1384.');
+      }
+    });
+  </script>
 
 </body>
 </html>
