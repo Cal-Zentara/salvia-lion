@@ -976,6 +976,21 @@ em {
   background: rgba(20, 184, 166, 0.08);
 }
 
+.sold-out-tag {
+  display: inline-block;
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 100px;
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
 .bath-salts-size {
   font-size: 0.85rem;
   color: var(--text-muted);
