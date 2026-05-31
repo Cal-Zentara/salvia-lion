@@ -583,6 +583,16 @@ em {
   margin: 0 auto;
 }
 
+/* Desktop: Pet Reiki card lives in the Services grid (fills the 2×2).
+   Standalone #pets-section is mobile-only. */
+.desktop-only { display: block; }
+#pets-section { display: none; }
+
+@media (max-width: 768px) {
+  .desktop-only { display: none !important; }
+  #pets-section { display: block; }
+}
+
 .service-card {
   position: relative;
   background: var(--card-bg);
