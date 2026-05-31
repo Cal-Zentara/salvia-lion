@@ -74,7 +74,7 @@ No client-side persistence beyond theme preference.
 - **Sacred Hold Stripe links:**
   - Founding $444/mo: `https://buy.stripe.com/dRm00ia93e96fhsaeFcbC05`
   - Standard $668.68/mo: `https://buy.stripe.com/28E7sK0yt1mk3yKfyZcbC06`
-- Stripe account review pending — payments activate once cleared (from 2026-05-22)
+- ✅ Stripe account ACTIVATED (confirmed 2026-05-31) — all payment links live and processing
 
 ### Known Gotchas
 
@@ -238,9 +238,9 @@ Added 2026-04-17. Idea from Dalena.
 ## Pending Before Go-Live
 - Salvia's approval of her profile photo on the live site
 - 1–2 more real testimonials
-- Real payment/order link for bath salts — Stripe setup pending (Nancy needs to open a separate business checking first)
+- ~~Real payment/order link for bath salts — Stripe setup pending~~ ✅ Stripe activated 2026-05-31, all links live
 - Send Her People questions (Q13–18) when timing is right
-- Nancy to set up PandaDoc account for digital intake form signing
+- ⏸️ PandaDoc digital signing — ON HOLD per Cal (2026-05-31), do not action until he says so
 
 ## How Nancy Works (operational notes)
 - Goes at her own pace — don't push, let inspiration drive her
@@ -434,7 +434,7 @@ Nancy confirmed she uses Cho Ku Rei and Sei He Ki to charge every bath salt bag 
 - ~~Nancy to share booking link → embed on site as "Book a Session" button~~ ✅ Done 2026-05-25 — https://calendar.app.google/zyUNUM2JjPNhdqrD8
 - Confirm 10% Lavender Moon discount with Dalena before site goes live
 - Nancy opens business checking account → connect to Stripe for bath salt payments
-- Nancy creates PandaDoc account (Lionsalvia@gmail.com) → upload intake PDF → set signature field → embed link on site
+- ⏸️ ON HOLD (per Cal, 2026-05-31): Nancy creates PandaDoc account (Lionsalvia@gmail.com) → upload intake PDF → set signature field → embed link on site
 - Salvia approves her profile photo on live site
 - Collect 1–2 more real testimonials
 - Send Her People questions (Q13–18) when timing feels right
