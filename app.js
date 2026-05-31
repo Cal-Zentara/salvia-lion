@@ -229,11 +229,20 @@ function initScentSelector() {
     }
   }
 
+  // Solo pouches are portrait — shift them up so the bottom of the bag isn't cropped.
+  // The triple-pack is landscape and frames fine, so leave it at the CSS default.
+  function setImagePosition(src) {
+    if (!productImg || !src) return;
+    const isSolo = /NeroliEucalyptus|SageLavender/i.test(src);
+    productImg.style.objectPosition = isSolo ? 'center 65%' : '';
+  }
+
   function swapImage(pill) {
     if (!productImg || !pill.dataset.img) return;
     productImg.classList.add('fading');
     setTimeout(() => {
       productImg.src = pill.dataset.img;
+      setImagePosition(pill.dataset.img);
       productImg.classList.remove('fading');
     }, 300);
   }
@@ -246,6 +255,10 @@ function initScentSelector() {
       swapImage(pill);
     });
   });
+
+  // Set correct framing for whichever pill is active on load.
+  const activePill = document.querySelector('.scent-pill.active') || pills[0];
+  if (activePill) setImagePosition(activePill.dataset.img);
 
   const activePill = document.querySelector('.scent-pill.active');
   if (activePill) {
