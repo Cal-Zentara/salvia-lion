@@ -256,14 +256,11 @@ function initScentSelector() {
     });
   });
 
-  // Set correct framing for whichever pill is active on load.
+  // Set correct framing + pricing for whichever pill is active on load.
   const activePill = document.querySelector('.scent-pill.active') || pills[0];
-  if (activePill) setImagePosition(activePill.dataset.img);
-
-  const activePill = document.querySelector('.scent-pill.active');
   if (activePill) {
+    setImagePosition(activePill.dataset.img);
     updatePricing(activePill);
-    swapImage(activePill);
   }
 }
 
