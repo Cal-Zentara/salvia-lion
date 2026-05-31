@@ -576,6 +576,13 @@ em {
   gap: 24px;
 }
 
+/* Pet Reiki — single card centered in its own section */
+.pets-grid {
+  grid-template-columns: 1fr;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
 .service-card {
   position: relative;
   background: var(--card-bg);
