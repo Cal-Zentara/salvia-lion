@@ -26,16 +26,17 @@
 | Nav + mobile hamburger styles | `style.css` | 119–1343 |
 | Hero (lion image, text) | `index.html` | 34–54 |
 | Hero styles | `style.css` | 193–282 |
-| Services (3-card grid) | `index.html` | 140–177 |
-| Services styles + card tilt | `style.css` | 479–579 |
-| Membership section (Monthly Hold) | `index.html` | 180–237 |
-| Membership styles | `style.css` | 581–731 |
-| Bath salts shop (video + scent selector) | `index.html` | 240–284 |
+| Services (3-card grid: Reiki, Tarot, Energy & Tools) | `index.html` | 147–193 |
+| Services styles + card tilt | `style.css` | 479–586 |
+| Bath salts shop (video + scent selector) | `index.html` | 196–240 |
 | Bath salts styles | `style.css` | 733–871 |
-| Testimonials carousel | `index.html` | 286–376 |
+| Pet Reiki section (single centered card) | `index.html` | 243–262 |
+| Membership section (Sacred Hold) | `index.html` | 265–323 |
+| Membership styles | `style.css` | 581–731 |
+| Testimonials carousel | `index.html` | 326–372 |
 | Testimonials carousel styles | `style.css` | 865–995 |
 | How It Works horizontal scroll | `style.css` | 996–1057 |
-| FAQ accordion | `index.html` | 408–446 |
+| FAQ accordion | `index.html` | 404–447 |
 | FAQ styles | `style.css` | 1059–1127 |
 | Mobile nav overlay | `index.html` | 469–479 |
 | Mobile nav styles | `style.css` | 1344–1442 |
@@ -131,13 +132,17 @@ Demo website for Salvia Lion (Nancy's pen name) — a spiritual healer offering 
 2. Hero — "Leave feeling loved, comforted, and hopeful" — Spirit Lion image below text on mobile (mix-blend-mode: normal on mobile, screen on desktop dark)
 3. Teal marquee strip — 12 items including Moon Ceremonies + Space Clearing
 4. About Salvia — NO banner photo (removed). Meet Salvia eyebrow, two-column (story left, Salvia's photo + why card right), "Why she does this" card full-width horizontal below. Profile photo: 75% width, height: auto, no crop
-5. Services — 3 cards with photos (Books.jpeg for Reiki, Tarot Cards for Tarot, EsponSalt.jpeg for Energy Clearing)
-6. **Bath Salts Shop** — Video.mp4 autoplay left, product info right. 3 interactive scent selector pills (purple). Pricing: $10 single / $24 bundle of 3. Order button emails Lionsalvia@gmail.com
-7. Testimonials — 3 real (Cal, Vikki, Rosemary), 4 placeholders — auto-advances, prev/next arrow controls, Cal has photo
-8. How It Works — 3 steps with Salvia's real before/during/after process (from Q8)
-9. FAQ — 6 questions accordion, uses Salvia's real words
-10. CTA — "There's a reason you were led here" + Salvia's Q12 quote
-11. Footer — name, tagline, wellness disclaimer
+5. Services — "Three paths to peace": 3 cards (Reiki, Tarot, Energy & Tools). Pet Reiki was pulled out into its own section (see #7) so the Bath Salts shop can sit directly under the tools/services
+6. **Bath Salts Shop** — product image left, product info right. 3 interactive scent selector pills (purple). Pricing: $10 single / $24 bundle of 3. Order button → Stripe
+7. **Pet Reiki** — standalone section (`#pets-section`), single centered service card (Distance Reiki for Pets, $66.66). Sits between Bath Salts and Membership
+8. Membership — "The Sacred Hold" (`#membership`), moved below Pet Reiki so the individual offerings come before the bundle
+9. Testimonials — 3 real (Cal, Vikki, Rosemary), 4 placeholders — auto-advances, prev/next arrow controls, Cal has photo
+10. How It Works — 3 steps with Salvia's real before/during/after process (from Q8)
+11. FAQ — 6 questions accordion, uses Salvia's real words
+12. CTA — "There's a reason you were led here" + Salvia's Q12 quote
+13. Footer — name, tagline, wellness disclaimer
+
+**Section order (2026-05-31):** Nav → Hero → Marquee → About → Services (3 cards) → Bath Salts → Pet Reiki → Membership → Testimonials → How It Works → FAQ → CTA → Footer
 
 ## About Nancy
 
@@ -207,7 +212,7 @@ Added 2026-04-17. Idea from Dalena.
 
 **CTA:** "Join the Waitlist" button — emails Lionsalvia@gmail.com?subject=Monthly Hold Waitlist
 
-**Section location:** Between Services and Bath Salts Shop in index.html
+**Section location:** After the Pet Reiki section in index.html (order: Services → Bath Salts → Pet Reiki → Membership)
 
 ## Status — 2026-04-19
 
