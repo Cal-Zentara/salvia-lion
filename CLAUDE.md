@@ -411,6 +411,39 @@ Worth opening an Etsy shop once Nancy has 5–10 reviews and product photos. Use
 ### Bath Salts Charging (Confirmed 2026-04-29)
 Nancy confirmed she uses Cho Ku Rei and Sei He Ki to charge every bath salt bag with intentions. This is the actual Reiki practice behind the product — not a marketing phrase. Use this in content and copy.
 
+### Nancy's Teaching Handouts (received 2026-05-31)
+*Nancy sent two of her own beginner handouts. Her exact words — verbatim. Great source for blog posts / IG carousels / an on-site "Learn" section. She tagged them: Protection = "a great post for beginners," Crystal grids = "for the crystal users."*
+
+**PROTECTION**
+> Importance: It is not only important to protect yourself when entering the spiritual world, it is also important to protect yourself in your day to day Earthbound world. All people have auras which can be under attack, as we open our auras to connect we open the ability to be attacked from all sides, thus opening us up for an energy dip, illness, etc. It is important to be conscious of this and protect ourselves on a daily basis.
+>
+> **Ways to protect yourself:**
+> - Meditation
+> - Grounding
+> - Opening and closing of your chakras
+> - Calling in your guides, archangels, angels and higher self
+> - Visualizing the shower water removing any unneeded energy from you and seeing it go down the drain, then picture the water being drops of white light that washes protection over your body
+> - Crystals, stones, spiritual medals
+> - Requesting those only of the light being allowed to work through you
+> - Recognizing and removing yourself from a lower energy room
+> - Reiki attunements
+
+**CREATING ENERGY GRIDS USING CRYSTALS**
+> Grids are created to (a) protect a space from unwanted energy entering an area and (b) to energize the space within the grid with certain qualities.
+>
+> **Directions:**
+> 1. Select 3 crystals of the same kind (e.g. 3 clear quartz, 3 rose quartz, 3 tiger eyes). Size does not matter — they can be very large or small based on the area you will be setting them in. The grid can be done without crystals, however the crystals tend to anchor the energy longer.
+>
+> When choosing your crystal, you may want to select them on their metaphysical properties and what your desired outcome is based on. Some samples:
+> - **All purpose** — Clear quartz (set the crystal's intention for what you want)
+> - **Healing** — Aventurine, Malachite
+> - **Love** — Rose Quartz
+> - **Protection** — Citrine, Hematite, Black Tourmaline
+> - **Psychic Work** — Sodalite, Lapis Lazuli, Amethyst
+>
+> 2. Place three different crystals in the shape of an equilateral triangle (or as close as possible) around the area you wish to protect or empower. The crystals do not need to be on the same level and they do not need to be visible.
+> 3. Stand outside of the triangle between 2 of the crystals. It does not matter which stones you stand between.
+
 ## Booking Calendar
 
 **Nancy's requirements (2026-04-29):**
