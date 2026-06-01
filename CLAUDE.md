@@ -414,6 +414,10 @@ Nancy confirmed she uses Cho Ku Rei and Sei He Ki to charge every bath salt bag 
 ### Nancy's Teaching Handouts (received 2026-05-31)
 *Nancy sent two of her own beginner handouts. Her exact words — verbatim. Great source for blog posts / IG carousels / an on-site "Learn" section. She tagged them: Protection = "a great post for beginners," Crystal grids = "for the crystal users."*
 
+> **GUIDING ANGLE for beginner/Protection content (Cal, 2026-05-31):** Frame protection as a *skill most people simply never learned* — NOT as empaths being helpless victims who "absorb everyone's energy." The empowering truth: you're not doomed to feel drained; once you learn to protect your own energy, you stop soaking it up. This positions Salvia as a teacher of a skill, not a source of sympathy. Tie every "aura / energy" explanation back to "and here's how you take control of it." Avoid victim framing.
+>
+> Working plain-language definition of *aura* (our words, beginner-friendly): "Your aura is the energy field around you. Most people never learn to protect it — so they walk around picking up everyone else's energy without realizing it. Learning to protect your own changes everything."
+
 **PROTECTION**
 > Importance: It is not only important to protect yourself when entering the spiritual world, it is also important to protect yourself in your day to day Earthbound world. All people have auras which can be under attack, as we open our auras to connect we open the ability to be attacked from all sides, thus opening us up for an energy dip, illness, etc. It is important to be conscious of this and protect ourselves on a daily basis.
 >
