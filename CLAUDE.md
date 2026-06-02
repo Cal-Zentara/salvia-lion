@@ -295,6 +295,11 @@ Ordered via RubberStamps.net. Cal paid upfront — bill Nancy $57.25.
 
 ## Bath Salts Marketing — 2026-04-30
 
+### Carousel Design Rules (Always Apply)
+- **Lion stamp color: teal and purple — every carousel, no exceptions.** Never charcoal, black, or single-color.
+- Light version carousel: cream/ivory background, dark charcoal text, teal + purple lion stamp
+- Dark version carousel: deep black (#07090c) background, white/teal text, teal + purple lion stamp
+
 ### IG Caption Format (Approved)
 Nancy approved a long-form caption format — she wants buyers to see exactly which scent they're getting. Full format + example saved in Claude memory: `feedback_salvia-lion-ig-caption-format.md`
 
