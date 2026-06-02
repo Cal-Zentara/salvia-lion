@@ -74,7 +74,7 @@ No client-side persistence beyond theme preference.
 - **Sacred Hold Stripe links:**
   - Founding $444/mo: `https://buy.stripe.com/dRm00ia93e96fhsaeFcbC05`
   - Standard $668.68/mo: `https://buy.stripe.com/28E7sK0yt1mk3yKfyZcbC06`
-- Stripe account review pending — payments activate once cleared (from 2026-05-22)
+- ✅ Stripe account ACTIVATED (confirmed 2026-05-31) — all payment links live and processing
 
 ### Known Gotchas
 
@@ -238,9 +238,9 @@ Added 2026-04-17. Idea from Dalena.
 ## Pending Before Go-Live
 - Salvia's approval of her profile photo on the live site
 - 1–2 more real testimonials
-- Real payment/order link for bath salts — Stripe setup pending (Nancy needs to open a separate business checking first)
+- ~~Real payment/order link for bath salts — Stripe setup pending~~ ✅ Stripe activated 2026-05-31, all links live
 - Send Her People questions (Q13–18) when timing is right
-- Nancy to set up PandaDoc account for digital intake form signing
+- ⏸️ PandaDoc digital signing — ON HOLD per Cal (2026-05-31), do not action until he says so
 
 ## How Nancy Works (operational notes)
 - Goes at her own pace — don't push, let inspiration drive her
@@ -411,6 +411,43 @@ Worth opening an Etsy shop once Nancy has 5–10 reviews and product photos. Use
 ### Bath Salts Charging (Confirmed 2026-04-29)
 Nancy confirmed she uses Cho Ku Rei and Sei He Ki to charge every bath salt bag with intentions. This is the actual Reiki practice behind the product — not a marketing phrase. Use this in content and copy.
 
+### Nancy's Teaching Handouts (received 2026-05-31)
+*Nancy sent two of her own beginner handouts. Her exact words — verbatim. Great source for blog posts / IG carousels / an on-site "Learn" section. She tagged them: Protection = "a great post for beginners," Crystal grids = "for the crystal users."*
+
+> **GUIDING ANGLE for beginner/Protection content (Cal, 2026-05-31):** Frame protection as a *skill most people simply never learned* — NOT as empaths being helpless victims who "absorb everyone's energy." The empowering truth: you're not doomed to feel drained; once you learn to protect your own energy, you stop soaking it up. This positions Salvia as a teacher of a skill, not a source of sympathy. Tie every "aura / energy" explanation back to "and here's how you take control of it." Avoid victim framing.
+>
+> Working plain-language definition of *aura* (our words, beginner-friendly): "Your aura is the energy field around you. Most people never learn to protect it — so they walk around picking up everyone else's energy without realizing it. Learning to protect your own changes everything."
+
+**PROTECTION**
+> Importance: It is not only important to protect yourself when entering the spiritual world, it is also important to protect yourself in your day to day Earthbound world. All people have auras which can be under attack, as we open our auras to connect we open the ability to be attacked from all sides, thus opening us up for an energy dip, illness, etc. It is important to be conscious of this and protect ourselves on a daily basis.
+>
+> **Ways to protect yourself:**
+> - Meditation
+> - Grounding
+> - Opening and closing of your chakras
+> - Calling in your guides, archangels, angels and higher self
+> - Visualizing the shower water removing any unneeded energy from you and seeing it go down the drain, then picture the water being drops of white light that washes protection over your body
+> - Crystals, stones, spiritual medals
+> - Requesting those only of the light being allowed to work through you
+> - Recognizing and removing yourself from a lower energy room
+> - Reiki attunements
+
+**CREATING ENERGY GRIDS USING CRYSTALS**
+> Grids are created to (a) protect a space from unwanted energy entering an area and (b) to energize the space within the grid with certain qualities.
+>
+> **Directions:**
+> 1. Select 3 crystals of the same kind (e.g. 3 clear quartz, 3 rose quartz, 3 tiger eyes). Size does not matter — they can be very large or small based on the area you will be setting them in. The grid can be done without crystals, however the crystals tend to anchor the energy longer.
+>
+> When choosing your crystal, you may want to select them on their metaphysical properties and what your desired outcome is based on. Some samples:
+> - **All purpose** — Clear quartz (set the crystal's intention for what you want)
+> - **Healing** — Aventurine, Malachite
+> - **Love** — Rose Quartz
+> - **Protection** — Citrine, Hematite, Black Tourmaline
+> - **Psychic Work** — Sodalite, Lapis Lazuli, Amethyst
+>
+> 2. Place three different crystals in the shape of an equilateral triangle (or as close as possible) around the area you wish to protect or empower. The crystals do not need to be on the same level and they do not need to be visible.
+> 3. Stand outside of the triangle between 2 of the crystals. It does not matter which stones you stand between.
+
 ## Booking Calendar
 
 **Nancy's requirements (2026-04-29):**
@@ -434,7 +471,7 @@ Nancy confirmed she uses Cho Ku Rei and Sei He Ki to charge every bath salt bag 
 - ~~Nancy to share booking link → embed on site as "Book a Session" button~~ ✅ Done 2026-05-25 — https://calendar.app.google/zyUNUM2JjPNhdqrD8
 - Confirm 10% Lavender Moon discount with Dalena before site goes live
 - Nancy opens business checking account → connect to Stripe for bath salt payments
-- Nancy creates PandaDoc account (Lionsalvia@gmail.com) → upload intake PDF → set signature field → embed link on site
+- ⏸️ ON HOLD (per Cal, 2026-05-31): Nancy creates PandaDoc account (Lionsalvia@gmail.com) → upload intake PDF → set signature field → embed link on site
 - Salvia approves her profile photo on live site
 - Collect 1–2 more real testimonials
 - Send Her People questions (Q13–18) when timing feels right
