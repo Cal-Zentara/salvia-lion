@@ -1,6 +1,6 @@
 # STATUS — Spirit Nancy (Salvia Lion)
 
-*Last updated: 2026-05-22*
+*Last updated: 2026-06-02*
 
 ## What this is
 Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon ceremonies, bath salts shop. Not publicly launched yet.
@@ -22,6 +22,7 @@ Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon 
 - Stripe account under review (2-3 days from 2026-05-22) — payments will activate once cleared
 
 ## What's next
+0. **$100 ad budget ready to spend** — boost the "Protecting your energy" carousel in the IG app. Settings: women 28-55 US, interests Reiki/energy healing/spirituality/meditation/crystals, $10/day x 10 days, Instagram placement, goal = More messages. (Not yet run as of Jun 2.)
 1. Nancy fixes Google Calendar booking timezone (GMT → Pacific) — needs desktop mode on Safari
 2. Nancy shares booking link → embed as "Book a Session" button on site
 3. Wait for Stripe review to clear (2-3 days from 2026-05-22)
@@ -30,6 +31,10 @@ Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon 
 6. Get individual White Tea & Lavender bag photo (landscape/horizontal) to replace triple shot on that scent
 
 ## Done
+- ✅ 4th testimonial added + LIVE — bath salts review from reviewer credited as "Mai" (her middle name; shares first name "Nancy" with Salvia, so middle name used to avoid looking like a self-review). First testimonial specifically about the product (2026-06-02)
+- ✅ Facebook Page created for Salvia Lion + linked to @salvialion Instagram (2026-06-02) — required infrastructure for running IG/FB ads. Meta Business portfolio "Salvia Lion" also created. Login Lionsalvia@gmail.com.
+- ✅ Content tracker built — `Marketing/content/CONTENT-TRACKER.md` logs every post (live, written, ideas). Only 3 posts actually live on IG: "Why salt?" carousel (Apr 29), Blue Moon reel (May 31), "Protecting your energy" carousel (Jun 1, Nancy made herself)
+- ✅ 4-week content calendar built — `Marketing/content/CONTENT-CALENDAR.md`, M/W/F schedule, full captions in her voice ready to copy-paste
 - ✅ Billed Salvia $57.25 for stamp order #5486467 (2026-04-29)
 - ✅ 3 warmup IG posts written (2026-04-27) — Pet Insight, Empath Angle, Ritual Walk-Through
 - ✅ 4 full carousel concepts written (2026-04-29) — "Led here", "You're not imagining it", "I needed healing first", "Three scents"
