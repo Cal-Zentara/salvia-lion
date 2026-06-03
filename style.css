@@ -177,6 +177,9 @@ em {
   border-bottom: 1px solid rgba(20, 184, 166, 0.1);
 }
 
+/* Offset anchor jumps so the fixed nav (~115px) doesn't cover section headings */
+section[id] { scroll-margin-top: 120px; }
+
 .nav-inner {
   max-width: 1080px;
   margin: 0 auto;
@@ -581,6 +584,16 @@ em {
   grid-template-columns: 1fr;
   max-width: 520px;
   margin: 0 auto;
+}
+
+/* Desktop: Pet Reiki card lives in the Services grid (fills the 2×2).
+   Standalone #pets-section is mobile-only. */
+.desktop-only { display: block; }
+#pets-section { display: none; }
+
+@media (max-width: 768px) {
+  .desktop-only { display: none !important; }
+  #pets-section { display: block; }
 }
 
 .service-card {
