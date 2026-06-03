@@ -31,6 +31,8 @@ Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon 
 6. Get individual White Tea & Lavender bag photo (landscape/horizontal) to replace triple shot on that scent
 
 ## Done
+- ✅ Content strategy built (2026-06-03): `Marketing/salvialion-content-masterclass.md` (10-step marketing roadmap modeled on Unik's, anchored in her real positioning/voice/discovery answers) + `Marketing/content/9-WEEK-ROADMAP.md` (9 weeks, M/W/F, every post tagged by job: Teach / Connect / Sell-or-Prove). Mix is research-backed: ~70% value, ~18% selling. Simple at-a-glance table sits at the top of the roadmap file. Locked production rules (carousel style, Reiki symbols, caption format) are in the roadmap's "Production details" section.
+- ⚠️ Found the 6-part Protection deep-dive series copy + Higgsfield prompts were NEVER actually saved (an old note claimed they existed; they don't). Corrected in `CONTENT-TRACKER.md`. They fill the Monday Teach slots in weeks 2,3,4,6,7,9 — still need writing.
 - ✅ 4th testimonial added + LIVE — bath salts review from reviewer credited as "Mai" (her middle name; shares first name "Nancy" with Salvia, so middle name used to avoid looking like a self-review). First testimonial specifically about the product (2026-06-02)
 - ✅ Facebook Page created for Salvia Lion + linked to @salvialion Instagram (2026-06-02) — required infrastructure for running IG/FB ads. Meta Business portfolio "Salvia Lion" also created. Login Lionsalvia@gmail.com.
 - ✅ Content tracker built — `Marketing/content/CONTENT-TRACKER.md` logs every post (live, written, ideas). Only 3 posts actually live on IG: "Why salt?" carousel (Apr 29), Blue Moon reel (May 31), "Protecting your energy" carousel (Jun 1, Nancy made herself)

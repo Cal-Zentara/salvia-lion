@@ -61,7 +61,7 @@ Last updated: June 2, 2026
 
 | Title | Type | Status |
 |---|---|---|
-| Protection deep-dive series | 6 carousels | Copy written. Higgsfield prompts written. Awaiting generation. Topics: Meditation, Grounding, Chakras, Calling in Guides, Crystals and Stones, Reiki Attunements. |
+| Protection deep-dive series | 6 carousels | ⚠️ Topics LOCKED, but copy + Higgsfield prompts NOT saved anywhere (checked June 3, 2026 — an old note claimed they were written; they aren't). Needs writing. Topics: Meditation, Grounding, Chakras, Calling in Guides, Crystals and Stones, Reiki Attunements. These fill the Monday "Teach" slots in the 9-week roadmap (weeks 2,3,4,6,7,9). |
 
 ---
 
