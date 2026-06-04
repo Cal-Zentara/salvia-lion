@@ -56,6 +56,60 @@ Roughly 70% value, 11% community, 18% selling. That's the research-backed mix.
 
 ---
 
+## How to use the hooks (read this once)
+
+The hook is the cover slide on a carousel, the first 2 seconds of a Reel, or the first line of a caption. Its only job is to STOP the scroll.
+
+**The one rule:** surprise or curiosity stops a stranger. Recognition makes them save. So the hook opens with a jolt, and the body pays it off with the "that's me" feeling. Never lead with the soft, pretty recognition line, save that for slide 2 or 3. (Full research + sources: `../salvialion-hooks.md`.)
+
+**Three moves do all the work:**
+1. **Numbered signs** ("3 signs...") — best for teaching carousels. Scannable, predictable value, gets saved most.
+2. **Counterintuitive claim** ("it's not X, it's Y") — surprise. Best for myth-busting topics.
+3. **Curiosity question or "nobody talks about..."** — opens a loop they have to close. Best for connect posts.
+
+**How to apply by day:**
+- **Monday (Teach):** lead with a numbered "signs" hook or a myth-bust. Body teaches the lesson.
+- **Wednesday (Connect):** lead with a question or a process curiosity ("come pack an order with me"). Body invites a reply or shows the hands.
+- **Friday (Sell or Prove):** lead with a specific reframe or a story curiosity ("she didn't even like baths"). Body makes the soft offer or tells the proof.
+
+---
+
+## The hook for every post
+
+The cover line / first line for all 27 posts, with the formula behind each. These are starting drafts, sharpen on the day, but never post without a hook from here.
+
+| Wk | Day | Post | Hook (cover / first line) | Formula |
+|---|---|---|---|---|
+| 1 | Mon | What Reiki is | "3 signs the exhaustion you feel isn't even yours." | Numbered signs |
+| 1 | Wed | Empath angle | "You leave work drained, and it's not from the work." | Counterintuitive |
+| 1 | Fri | Sell: bath ritual | "The 20-minute reset for when you can't shake someone else's energy off you." | Reframe |
+| 2 | Mon | Meditation | "Meditation isn't about clearing your mind. It's about building a wall." | Counterintuitive |
+| 2 | Wed | Charging the bags | "This is what it actually looks like when I charge a bag with Reiki." | Insider / curiosity |
+| 2 | Fri | Prove: her story | "I didn't start this to build a brand. I needed healing first." | Vulnerability |
+| 3 | Mon | Grounding | "The fastest way to feel like yourself again takes 30 seconds." | Curiosity + if-then |
+| 3 | Wed | "Room feel off?" | "Ever walked into a room and known something was wrong before anyone spoke?" | Curiosity question |
+| 3 | Fri | Sell: three scents | "A different bag for the week that wrecked you, and the week you just need to exhale." | Reframe |
+| 4 | Mon | Chakras | "Most people learn to open their chakras. Almost nobody learns to close them." | Nobody talks about |
+| 4 | Wed | Pet insight | "Your pet is carrying your stress. You can't see it, but they feel it." | Counterintuitive |
+| 4 | Fri | Prove: Mai's review | "She didn't even like baths. Then she tried these." | Story curiosity |
+| 5 | Mon | The 5 precepts | "5 lines a Reiki Master lives by, and you can borrow them." | Numbered |
+| 5 | Wed | Sound of the salt pour | "Turn your sound on for this one." | Sensory curiosity |
+| 5 | Fri | Sell: the bundle | "All three scents for $24. Here's why most people grab all three." | Curiosity + value |
+| 6 | Mon | Calling in guides | "You're allowed to ask for backup. Most people never do." | Reframe |
+| 6 | Wed | "What drains you?" | "What drains you most: crowds, work, or one specific person?" | Question |
+| 6 | Fri | Prove: relaxed or sleepy | "Almost everyone says the same two words after a bath with these." | Curiosity gap |
+| 7 | Mon | Crystals | "3 crystals that actually do something, and how to use them." | Numbered |
+| 7 | Wed | You're not imagining it | "If crowds wreck you, there's a reason, and it isn't weakness." | Reframe |
+| 7 | Fri | Sell: scent spotlight | "The one scent for the week that emotionally flattened you." | Specific reframe |
+| 8 | Mon | The two symbols | "I draw two symbols before every session. They go into every bag too." | Insider / curiosity |
+| 8 | Wed | Packing a real order | "Come pack a real order with me." | Process curiosity |
+| 8 | Fri | Prove: reach one person | "If I only reach one person with this, that's enough." | Vulnerability |
+| 9 | Mon | Attunements | "What actually happens in a Reiki attunement, the part nobody explains." | Nobody talks about |
+| 9 | Wed | Which scent + why | "Pick a scent and I'll tell you what kind of week you're having." | Interactive question |
+| 9 | Fri | Sell: recap, DM to order | "If you've made it this far, here's the simplest way to start." | Soft close |
+
+---
+
 ## The 9 weeks
 
 ### WEEK 1 (Jun 9 / 11 / 13)
