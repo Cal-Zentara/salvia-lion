@@ -110,6 +110,41 @@ The cover line / first line for all 27 posts, with the formula behind each. Thes
 
 ---
 
+## Best times to post
+
+Pulled from Meta AI (June 3 2026) and cross-checked against Buffer, Later, and Sprout studies. The broad windows below are trustworthy. Any ultra-specific claims (named creators posting at an exact minute) were ignored, that's noise.
+
+| Day | Slot | When to post | Why |
+|---|---|---|---|
+| Monday | Teach (carousel) | Evening, 6 to 8pm | Carousels get saved most in the 6 to 11pm weekday window. That's wind-down / bath time for her audience. |
+| Wednesday | Connect | Midday ~12pm, or evening 6 to 9pm | Wednesday is the single strongest day for engagement. |
+| Friday | Sell or Prove | Late morning to early afternoon (11am to 2pm), or evening 6 to 9pm for carousels | End of week, she's earned the ask. |
+
+- **Avoid weekends.** Engagement drops hard Saturday and Sunday.
+- These are a starting guide. Check her Instagram Insights (Professional Dashboard) for HER audience's real active hours, spiritual audiences often skew later, then lock her best 2 slots and keep them.
+- Consistency beats the perfect minute. Pick the slots and stick to them.
+
+---
+
+## Instagram SEO — keywords for every caption + slide
+
+Instagram now works like search. It reads the words in the caption, the on-screen text on slides, and what's said aloud in a Reel to decide who to show the post to. Hashtags barely matter now, keywords do. (Source: Meta AI June 3 2026, aligned with current IG SEO guidance.)
+
+**Put 2 to 3 of these in the FIRST line of every caption, and a keyword phrase on the cover slide.**
+
+- **Who she's for (identity words):** empath, highly sensitive person, HSP, sensitive soul, intuitive, lightworker.
+- **What they feel (pain words):** absorb other people's energy, energetic overwhelm, drained after crowds, overstimulated, energy clearing, energetic protection, nervous system reset, boundaries for empaths.
+- **The product / the fix (solution words):** Reiki charged, Reiki bath, bath salts ritual, spiritual bath, energy cleansing bath, grounding, aura cleansing, self care ritual.
+
+**Example first line:** "Reiki charged bath salts for highly sensitive empaths who absorb everyone's energy."
+
+**Rules:**
+- Stay in her voice. Only use the words that actually sound like her. Never force a keyword or overclaim.
+- The on-screen text on the cover slide is indexed too, so the hook doubles as SEO when it carries a keyword (e.g. "3 signs the exhaustion you feel isn't even yours" already says exhaustion + signs).
+- No dashes as punctuation, same as always.
+
+---
+
 ## The 9 weeks
 
 ### WEEK 1 (Jun 9 / 11 / 13)
@@ -221,6 +256,14 @@ When the posts get built, these are the locked rules. Missing one means redoing 
 - Generated via Higgsfield CLI, not the MCP. Lowest quality until Cal approves a direction.
 - No on-screen text, captions, or brand words baked into any video — branding goes on an end card only.
 - Charging-the-bags video = her real practice (she charges every bag with Cho Ku Rei + Sei He Ki). This is the differentiator nobody else has.
+
+**Faceless video setup (LOCKED June 3 2026):**
+Nancy does not show her face. Salvia grows faceless, but real, not with an AI avatar. Her realness is the whole asset, a fake AI persona would kill it. Every video uses:
+- **Real visuals only:** her hands pouring salt, charging a bag, lighting a candle, the product, steam, botanicals, atmosphere. No face. No AI character.
+- **One consistent AI voice:** the ElevenLabs Anaya voice already used on the Blue Moon reel. Same voice EVERY time so it becomes "Salvia's voice." Never switch it.
+- **Her real words:** the AI only handles delivery. The script is always her real story and her phrases ("led here," "people who feel everything"), from `salvialion-voice.md`. AI voice, human truth.
+- **Minimal elegant text, added in POST (CapCut/Canva), not generated:** about 2 words on screen, her soft serif (Cormorant Garamond style), lowercase, fades in gently. NOT bold all-caps (that's the loud Nala style, wrong for her calm brand). The text gives mute scrollers the hook without breaking the quiet vibe.
+- Seedance prompts still say "no text, no words" as always, the elegant text is layered on afterward in editing.
 
 **Captions (every post):**
 - Her approved long-form format: Hook (her voice) → what it does / who it's for → product list (each scent on its own line with emoji) → promo note → price + CTA → dots → hashtags. (Full example in memory: `feedback_salvia-lion-ig-caption-format.md`.)

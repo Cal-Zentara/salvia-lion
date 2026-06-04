@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "salvia-lion",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-p", "3900", "."],
+      "port": 3900
+    },
+    {
+      "name": "roadmap",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-p", "3901", "Marketing/content/roadmap-view"],
+      "port": 3901
+    }
+  ]
+}

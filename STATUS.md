@@ -1,6 +1,6 @@
 # STATUS — Spirit Nancy (Salvia Lion)
 
-*Last updated: 2026-06-02*
+*Last updated: 2026-06-03*
 
 ## What this is
 Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon ceremonies, bath salts shop. Not publicly launched yet.
@@ -22,6 +22,7 @@ Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon 
 - Stripe account under review (2-3 days from 2026-05-22) — payments will activate once cleared
 
 ## What's next
+- **CONTENT — next action:** build the Week 1 Monday carousel ("What Reiki is" / "3 signs the exhaustion you feel isn't even yours") for June 9. Copy is written and locked in `salvialion/2026-06-03/what-is-reiki-carousel.md`. Just needs the slides generated (awaiting Cal's explicit go — never gen without it). Then start writing the 6 unwritten protection carousels + the 3 faceless process videos.
 0. **$100 ad budget ready to spend** — boost the "Protecting your energy" carousel in the IG app. Settings: women 28-55 US, interests Reiki/energy healing/spirituality/meditation/crystals, $10/day x 10 days, Instagram placement, goal = More messages. (Not yet run as of Jun 2.)
 1. Nancy fixes Google Calendar booking timezone (GMT → Pacific) — needs desktop mode on Safari
 2. Nancy shares booking link → embed as "Book a Session" button on site
@@ -31,6 +32,8 @@ Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon 
 6. Get individual White Tea & Lavender bag photo (landscape/horizontal) to replace triple shot on that scent
 
 ## Done
+- ✅ **Roadmap deepened + hooks/times/SEO/faceless added (2026-06-03, session 2):** Researched hooks that work in her niche → saved `Marketing/salvialion-hooks.md` (the rule: surprise stops the scroll, recognition makes them save; 6 formulas with ready Salvia versions). Added to `9-WEEK-ROADMAP.md`: a hook for all 27 posts + how-to-use guide, best posting times (a starting guess, her IG Insights are empty at 4 followers so unverifiable), and an Instagram SEO keyword list for captions/slides. Rebuilt the "What Is Reiki" carousel around the "3 signs the exhaustion you feel isn't even yours" hook (`salvialion/2026-06-03/what-is-reiki-carousel.md`, 8 slides, light cream style). Also made a rendered preview page (`9-WEEK-ROADMAP.html` + `roadmap-view/index.html`, viewable in Claude desktop preview via the "roadmap" launch config).
+- ✅ **DECISIONS LOCKED (2026-06-03):** (1) Go wellness-broad, not just spiritual — ride the nervous-system / stress-relief wave, Reiki as the deeper why. (2) Faceless but REAL, never an AI avatar (her realness is the whole asset). (3) Faceless setup: real hands/product/atmosphere b-roll + ONE consistent AI voice (ElevenLabs Anaya, same as Blue Moon reel) reading HER real words + minimal elegant 2-word text added in POST (soft serif, lowercase, NOT bold caps). All locked in the roadmap "Faceless video setup" section. (4) Confirmed via real research + Nancy herself: Reiki clears + heals mainly, ends sessions empowering, NOT "replenishing" (her words). (5) Competitor model = @nalaasashakur (Naturally Nala, 39.8K) proves the faceless wellness-broad lane works.
 - ✅ Content strategy built (2026-06-03): `Marketing/salvialion-content-masterclass.md` (10-step marketing roadmap modeled on Unik's, anchored in her real positioning/voice/discovery answers) + `Marketing/content/9-WEEK-ROADMAP.md` (9 weeks, M/W/F, every post tagged by job: Teach / Connect / Sell-or-Prove). Mix is research-backed: ~70% value, ~18% selling. Simple at-a-glance table sits at the top of the roadmap file. Locked production rules (carousel style, Reiki symbols, caption format) are in the roadmap's "Production details" section.
 - ⚠️ Found the 6-part Protection deep-dive series copy + Higgsfield prompts were NEVER actually saved (an old note claimed they existed; they don't). Corrected in `CONTENT-TRACKER.md`. They fill the Monday Teach slots in weeks 2,3,4,6,7,9 — still need writing.
 - ✅ 4th testimonial added + LIVE — bath salts review from reviewer credited as "Mai" (her middle name; shares first name "Nancy" with Salvia, so middle name used to avoid looking like a self-review). First testimonial specifically about the product (2026-06-02)
