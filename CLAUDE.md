@@ -300,6 +300,21 @@ Ordered via RubberStamps.net. Cal paid upfront — bill Nancy $57.25.
 - Light version carousel: cream/ivory background, dark charcoal text, teal + purple lion stamp
 - Dark version carousel: deep black (#07090c) background, white/teal text, teal + purple lion stamp
 
+### Etsy Shop — LIVE (2026-06-05)
+- **Shop is open:** salvialion.etsy.com (account email Lionsalvia@gmail.com). Paid the one-time $29 Etsy setup fee.
+- **Nancy ships from ZIP 92840** (Garden Grove, CA). US-only shipping for now (avoids EU/GPSR compliance).
+- **First listing LIVE:** "Reiki Charged Bath Salts..." — $10.00, 10 in stock, made-to-order, auto-renews Oct 5 2026.
+  - Processing: Made to order, **5–7 business days** (Nancy's call — 5–7 is standard, 3 is express).
+  - Shipping: **Calculated, buyer-pays**, saved profile named **"Bath Salts US"** (reuse for future listings). Item weight 5 oz, size 6×4×2 in.
+  - Returns: Simple policy, 30 days, buyer responsible.
+  - Variations: custom "Scent" with 3 options (White Tea & Lavender, Neroli & Eucalyptus, Sage & Lavender), photos linked per scent.
+  - 13 tags used (reiki bath salts, energy clearing, spiritual bath, empath gift, aura cleansing, bath salt soak, epsom bath salt, cleansing ritual, spiritual gift, self care gift, lavender bath, witchy bath salt, meditation bath).
+- **TODO next session (~10 min):**
+  1. **$24 bundle listing** — copy the live listing (gear ⚙️ → Copy), change price to 24.00, retitle "Bundle of 3", set to include all 3 scents. NEED ANSWER: bundle = one of each scent, or buyer picks 3?
+  2. Shop polish (optional): lion logo as shop icon, banner, "About" story.
+- **Copy note:** Bath salts framing is **clear → heal → empower** (Nancy ends sessions empowering). She does NOT position them as "replenishing" — keep that word out of all copy.
+- **Amazon = phase 2** (heavier: cosmetic compliance, brand registry, barcodes). Do Etsy reviews first.
+
 ### IG Caption Format (Approved)
 Nancy approved a long-form caption format — she wants buyers to see exactly which scent they're getting. Full format + example saved in Claude memory: `feedback_salvia-lion-ig-caption-format.md`
 
