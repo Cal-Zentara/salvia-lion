@@ -1,3 +1,6 @@
+> 📚 BACKGROUND ONLY, not the posting plan. This is the strategy behind it.
+> The plan you actually post from is "content/9-WEEK-ROADMAP.md". Open that one for week-to-week work.
+
 # Salvia Lion — Content Masterclass
 Last updated: June 3, 2026
 Source: her positioning doc, voice doc, discovery answers (Q1–Q12), buyer research. Everything here traces to her real words — nothing invented.

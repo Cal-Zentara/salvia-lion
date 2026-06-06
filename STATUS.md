@@ -1,6 +1,6 @@
 # STATUS — Spirit Nancy (Salvia Lion)
 
-*Last updated: 2026-06-03*
+*Last updated: 2026-06-06*
 
 ## What this is
 Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon ceremonies, bath salts shop. Not publicly launched yet.
@@ -19,15 +19,15 @@ Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon 
 - 10% Lavender Moon discount removed from site (never confirmed with Dalena)
 - Garden Grove business license letter received — Nancy handling (EIN done, BofA open, paying GG next)
 - Reiki Intake PDF built (`Salvia_Lion_Reiki_Intake_Form.pdf`) — parked, Nancy emails manually for now
-- Stripe account under review (2-3 days from 2026-05-22) — payments will activate once cleared
+- Stripe LIVE — account activated 2026-05-31, all 6 payment links processing
 
 ## What's next
 - **CONTENT — next action:** build the Week 1 Monday carousel ("What Reiki is" / "3 signs the exhaustion you feel isn't even yours") for June 9. Copy is written and locked in `salvialion/2026-06-03/what-is-reiki-carousel.md`. Just needs the slides generated (awaiting Cal's explicit go — never gen without it). Then start writing the 6 unwritten protection carousels + the 3 faceless process videos.
 0. **$100 ad budget ready to spend** — boost the "Protecting your energy" carousel in the IG app. Settings: women 28-55 US, interests Reiki/energy healing/spirituality/meditation/crystals, $10/day x 10 days, Instagram placement, goal = More messages. (Not yet run as of Jun 2.)
 1. Nancy fixes Google Calendar booking timezone (GMT → Pacific) — needs desktop mode on Safari
 2. Nancy shares booking link → embed as "Book a Session" button on site
-3. Wait for Stripe review to clear (2-3 days from 2026-05-22)
-4. Do a test purchase on each of the 6 Stripe links once review clears
+3. Setting up Etsy shop — connecting bank for payouts via Plaid (in progress 2026-06-06, Nancy). Bank account must be under her real name, Nancy Huynh.
+4. Do a test purchase on each of the 6 Stripe links (now live) to confirm money flows
 5. Archive old combined Stripe link (`14A5kCchb3usedodqRcbC00`) in Stripe dashboard
 6. Get individual White Tea & Lavender bag photo (landscape/horizontal) to replace triple shot on that scent
 

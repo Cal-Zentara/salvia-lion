@@ -1,3 +1,6 @@
+> 🗄️ OLD / BACKGROUND ONLY (April 2026). Product and buyer research, not the posting plan.
+> The current content plan is "content/9-WEEK-ROADMAP.md". Open that one for week-to-week work.
+
 # Bath Salts Marketing Roadmap — Salvia Lion
 Date built: 2026-04-27
 Status: Phase 1 in progress
@@ -12,7 +15,7 @@ Status: Phase 1 in progress
 - **Pricing:** $10 single / $24 bundle of 3
 - **Ingredients:** Epsom salt, jojoba oil, vitamin E, baking soda, corn starch, SLSA
 - **Key differentiator:** Charged with healing intentions by Salvia during her Reiki practice
-- **Order method:** Currently email (Lionsalvia@gmail.com) → Stripe pending (blocked on Nancy opening business checking)
+- **Order method:** Stripe payment links LIVE on the site (confirmed 2026-05-31) — one per scent + bundle. Email (Lionsalvia@gmail.com) still works as a backup.
 - **Site section:** https://cal-zentara.github.io/salvia-lion/#shop
 
 ---
@@ -190,7 +193,7 @@ Bath salts alone won't make Nancy rich. The power is in the ecosystem: salts →
 | Positioning file created | ✅ Done — `Marketing/salvialion-positioning.md` |
 | First 3 IG posts written | ✅ Done — `Marketing/content/salvialion/2026-04-27/posts-2026-04-27.md` |
 | Reddit Insights MCP connected | ❌ reddit-insight.com not launched yet (waitlist only) |
-| Stripe for online payments | ❌ Blocked — Nancy needs business checking |
+| Stripe for online payments | ✅ Done — all payment links live and processing (2026-05-31) |
 | Send Nancy the 3 sample posts | ⏳ Pending — Cal to send for her feedback |
 | Format posts as carousel slides | ⏳ Pending — do when Nancy is ready to post |
 | Nancy posting on IG | ⏳ Pending — lead with Video.mp4 as first Reel |

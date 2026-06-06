@@ -1,3 +1,5 @@
+> ⚠️ OLD DRAFTS (April 2026). If reusing any caption: the "DM me to order" line is outdated — ordering is now via the live Stripe links on the site. Update that line before reposting.
+
 # Carousel Session — Salvia Lion
 Date: April 29, 2026
 Format: Instagram Carousel (9:16 vertical slides)

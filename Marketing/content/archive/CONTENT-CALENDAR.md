@@ -1,3 +1,6 @@
+> 🗄️ OLD / REPLACED. This was the 4-week calendar. The current plan is "9-WEEK-ROADMAP.md" — use that one.
+> Kept only for the captions already written here. Don't plan from this file anymore.
+
 # Salvia Lion — Content Calendar
 Schedule: Monday, Wednesday, Friday — 3x per week
 Last updated: June 2, 2026

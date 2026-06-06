@@ -1,3 +1,6 @@
+> ✅ THIS IS THE ONE WE USE. The active week-to-week posting plan. If you only open one roadmap, open this.
+> The other two files are background only: "content-masterclass" = the strategy behind this plan. "bath-salts/salvia-lion-roadmap" = old April product/buyer notes.
+
 # Salvia Lion — 9-Week Content Roadmap
 Built: June 3, 2026
 Schedule: Monday, Wednesday, Friday (3x per week)
@@ -112,7 +115,7 @@ The cover line / first line for all 27 posts, with the formula behind each. Thes
 
 ## Best times to post
 
-Pulled from Meta AI (June 3 2026) and cross-checked against Buffer, Later, and Sprout studies. The broad windows below are trustworthy. Any ultra-specific claims (named creators posting at an exact minute) were ignored, that's noise.
+⚠️ These are a general starting guess, NOT proven for her account. They come from broad 2026 studies (Buffer, Later, Sprout) cross-checked via Meta AI — good industry averages, but her own Instagram is too new to have real data yet. Treat the windows below as a place to start, then replace them with HER real numbers from Instagram Insights once she has enough followers.
 
 | Day | Slot | When to post | Why |
 |---|---|---|---|
