@@ -4,7 +4,18 @@ Started: June 6, 2026
 
 **How to use:** Each idea below is a concept to rebuild in HER world (hybrid 3D teal/purple lion, her voice, Reiki/energy angle, soft close). Never copy word for word, adapt the bones.
 
-**The core principle behind ALL of this (why it works):** every post is INSPIRATIONAL. Short, uplifting, makes the person feel something, so they save it and send it to a friend. But Salvia's inspiration is the GENTLE kind: permission and relief ("you're allowed to rest," "the heaviness was never yours"), never the hustle/grind kind ("be stronger," "outwork them," "mind over emotions"). That softer, validating lane is rarer and more her, so it stands out. Every idea in this file should pass one test: does it make a tired, sensitive person feel seen and lighter?
+**RULE ABOVE EVERYTHING — follow the IDEA, not just the format.** The visual templates (wall sign, steamy mirror, numbered signs, 3D lion) are just wrapping. What actually makes these posts work is the IDEA underneath: each one puts words to a feeling someone has carried for years but never been able to name. That naming is the moment they feel seen and hit save. So always work in this order:
+1. Start with the emotional truth we want her audience to FEEL (e.g. "the tiredness I feel isn't even mine," "I'm not too sensitive, I was just never taught to clear what I pick up").
+2. THEN pick whichever format delivers that truth best.
+Never start from "let's make a wall-sign post." Start from "let's make someone feel X," then choose the format. The idea is the gift, the format is the box.
+
+What the "ideas behind them" actually are (the mechanics that make people save and share):
+- They name a private feeling people never say out loud (makes them feel seen).
+- They make a lonely struggle feel universal (you're not broken, you're not alone).
+- They reveal a hidden truth that reframes the problem ("it isn't you, it's what you absorb").
+- They give permission and relief, not instruction.
+
+**The core principle:** every post is INSPIRATIONAL, but Salvia's inspiration is the GENTLE kind: permission and relief ("you're allowed to rest," "the heaviness was never yours"), never the hustle/grind kind ("be stronger," "outwork them," "mind over emotions"). That softer, validating lane is rarer and more her, so it stands out. One test for every idea: does it make a tired, sensitive person feel seen and lighter?
 
 **Name rule:** Never "Nancy" in public content. Salvia or Salvia Lion only.
 
