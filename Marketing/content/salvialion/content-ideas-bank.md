@@ -98,6 +98,20 @@ They mix in simple text-on-texture cards ("you are doing your best and it is eno
 - Great for Wednesday connect days or filling the grid between bigger carousels.
 - Her-voice lines: "You're allowed to come home to yourself." / "The heaviness was never yours to keep." / "Rest is not something you earn."
 
+## LIGHTWEIGHT FORMAT TO STEAL — the "message found in the real world"
+A handwritten message on a real surface (frost on a window, a sticky note, graffiti, a sign). Candid, doesn't look like an ad, stops the scroll. Great for connect days and grid variety.
+- Salvia's surface = a message finger-written in the STEAM on a foggy bathroom mirror, warm candlelight, lavender, her cream/teal/purple tones. Ties straight to the bath and her "sanctuary" theme.
+- IMPORTANT: keep the format, but the message must be HER voice (feel and clear emotions, never "overpower" or "suppress" them). Avoid hustle/discipline lines like "mind stronger than emotions" — off-brand.
+- Her-voice lines: "the heaviness was never yours to keep" / "come home to yourself" / "you're allowed to rest" / "clear what isn't yours, then rest"
+- Prompt template: `Photorealistic candid photo. A steamed-up foggy bathroom mirror in a warm candlelit bathroom, a short message finger-written into the condensation so the clear glass shows through the fog. It reads "[HER LINE]". Warm golden candlelight, soft teal and purple tones, a glowing candle and a hint of lavender through the steam, cozy spa sanctuary mood, shallow depth of field, intimate and real. Square 1:1.`
+- Small teal + purple lion added in the corner in post.
+
+Other surfaces for this same format (all candid, all her voice):
+- **Wall with a calm figure walking past** (the most cinematic). Her version: a soft warm wall in gentle light, a calm woman walking by, message painted in a muted teal or plum. `Photorealistic candid street photo. A calm woman walking past a soft warm-toned wall in gentle morning light, a hand-painted message on the wall in muted teal reads "[HER LINE]". Serene, real, cinematic, shallow depth of field. Square 1:1.`
+- **Back of a soft shirt / hoodie** in cream, message across the back (could double as future merch). Her voice only.
+- **Written in bath salt or sand**, or on a small handwritten card beside a candle.
+- Caveat again: warm, never snarky. Skip dig-at-toxic-people lines like "clown / circus." Her lines validate feeling: "you can love people and still protect your energy" / "the heaviness was never yours to keep" / "come home to yourself."
+
 ## FORMAT CONVENTIONS WORTH COPYING
 - Put "swipe" cue on carousel covers so people know to swipe (drives the save).
 - Same logo/stamp in the same spot every post = instantly recognizable grid (her teal + purple lion, top corner, always).
