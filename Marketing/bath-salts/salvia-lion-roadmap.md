@@ -16,7 +16,7 @@ Status: Phase 1 in progress
 - **Ingredients:** Epsom salt, jojoba oil, vitamin E, baking soda, corn starch, SLSA
 - **Key differentiator:** Charged with healing intentions by Salvia during her Reiki practice
 - **Order method:** Stripe payment links LIVE on the site (confirmed 2026-05-31) — one per scent + bundle. Email (Lionsalvia@gmail.com) still works as a backup.
-- **Site section:** https://cal-zentara.github.io/salvia-lion/#shop
+- **Site section:** https://salvialion.com/#shop
 
 ---
 

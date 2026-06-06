@@ -1,5 +1,5 @@
 # What Is Reiki — Carousel (rebuilt around the "3 signs" hook)
-Built: June 3, 2026
+Built: June 3, 2026 · Visual style switched to HYBRID 3D-cinematic June 6, 2026
 Posts: Week 1 Monday, June 9, 2026 (the "Teach" slot)
 Hook source: `Marketing/salvialion-hooks.md` — formula #1 (numbered "signs" list). Stops the scroll AND earns the save, which is what a tiny account needs.
 Copy source: her approved Reiki wording (May 25) + her empowering line confirmed directly by her June 3. Words unchanged. No dashes (her hard rule for slides).
@@ -19,14 +19,16 @@ The cover promises 3 signs, so the post delivers them first (each a "that's me" 
 
 ---
 
-## Visual style (locked — light version)
+## Visual style (HYBRID — locked June 6 2026)
 
-- Cream / ivory background. Soft watercolor washes of teal and purple bleeding at the edges.
-- Dark charcoal text. Calm, lots of breathing room. One idea per slide.
-- Lion stamp = teal AND purple, every slide it appears. Never charcoal, never one color.
-- Small "@salvialion" in teal at the bottom of each slide, 12px.
-- Matches her June 1 "Protecting your energy" post so the grid stays consistent.
-- 4:5 vertical (1080 x 1350).
+Inspired by @mindset.therapy's 3D cinematic carousels (one glowing figure among gray, fading figures), rebuilt in Salvia's world so the feed still looks like hers.
+
+- **The device:** one warm-glowing 3D figure = the sensitive person (her audience). The people around them are gray, matte, fading at the edges = the energy that drains them. This single idea carries every slide.
+- **3D look:** stylized matte clay-like figures, smooth featureless-soft faces, soft round glowing head on the main figure. Cinematic depth, soft rain-on-glass windows, shallow focus. Dramatic but never harsh.
+- **Salvia palette (NOT mindset.therapy's cold blue + gold):** warm cream and soft charcoal world, light pooling teal and purple through the windows. The main figure glows a warm gold-into-teal. Keep it warm and calm, never cold or corporate.
+- **Text (her style, not bold all-caps):** elegant serif (Cormorant Garamond feel), sentence case, cream/white over the darker lower third, ONE or two key words gently emphasized in teal or purple. Readable but soft. Never the thick all-caps of the reference.
+- **Lion stamp:** teal AND purple, every slide. Small top corner. Small "@salvialion" in teal at the bottom, 12px.
+- **Format:** 1:1 square (matches her grid + the studio carousel rule). 1080 x 1080.
 
 ---
 
@@ -37,7 +39,7 @@ The cover promises 3 signs, so the post delivers them first (each a "that's me" 
 Text on slide:
 3 signs the exhaustion you feel isn't even yours.
 
-Visual: Cream watercolor background, a single soft sprig of dried lavender low in the frame, faint teal and purple wash. Teal + purple lion stamp small at top center. The number "3" can sit large and soft behind the text. Lots of empty space.
+3D scene: A single warm-glowing figure walks through a group of gray, fading figures in a calm cream-and-charcoal room, soft teal and purple light through rain-touched windows. The glowing figure looks quietly weary. Lots of cinematic depth. Teal + purple lion stamp top corner.
 
 ---
 
@@ -46,7 +48,7 @@ Visual: Cream watercolor background, a single soft sprig of dried lavender low i
 Text on slide:
 1. You feel fine on your own, but drained after certain people.
 
-Visual: Cream base, two faint watercolor silhouettes close together, one of them dimming. Soft.
+3D scene: The glowing figure stands close to one or two gray figures. Faint wisps of gray energy pull from them into the glowing figure, dimming its glow a little. Warm, intimate framing.
 
 ---
 
@@ -55,16 +57,18 @@ Visual: Cream base, two faint watercolor silhouettes close together, one of them
 Text on slide:
 2. You can feel the mood in a room before anyone says a word.
 
-Visual: Cream base, a soft doorway shape in faint purple wash, a hint of heaviness on the other side.
+3D scene: The glowing figure pauses at a doorway, sensing a room of gray figures beyond. A soft purple haze of heaviness hangs in the next room. The figure's posture is alert, reading the air.
 
 ---
 
 **SLIDE 4 — Sign 3**
 
 Text on slide:
-3. You come home from a normal day heavy, and you can't name why.
+3. A stranger's bad mood can throw off your entire afternoon.
 
-Visual: Cream base, a teal watercolor pooling low in the frame, like weight settling at the end of a day.
+3D scene: The glowing figure passes a single gray stranger in a hallway. A thin trail of dark mood lifts off the stranger and clings to the glowing figure, dimming its warmth. Everyone else blurred past.
+
+(Reworked June 6 — old line "you come home from a normal day heavy" echoed the June 1 "Protecting your energy" post. Changed to avoid any repeat.)
 
 ---
 
@@ -73,7 +77,7 @@ Visual: Cream base, a teal watercolor pooling low in the frame, like weight sett
 Text on slide:
 That weight isn't tiredness. It's energy you absorbed that was never yours to carry.
 
-Visual: Cream base, soft blurred shapes at the edges clearing toward a calm center. The turn from heavy to clearing.
+3D scene: The glowing figure alone, shoulders slightly hunched, gray heavy energy clinging to its back and shoulders like smoke or weight. Warm-dark, the most emotional slide. The glow pushing faintly against the gray.
 
 ---
 
@@ -82,7 +86,7 @@ Visual: Cream base, soft blurred shapes at the edges clearing toward a calm cent
 Text on slide:
 Reiki is used to help clear your energetic and physical body of other people's energy. So you can just be present with your own.
 
-Visual: Cream base, a calm clear center, teal and purple watercolor opening outward like a breath. The lightest slide.
+3D scene: The figure stands tall, the gray energy lifting and dissolving off it, the glow returning brighter in warm gold, teal and purple. The lightest, most hopeful slide, soft radiance opening outward like a breath.
 
 (Copy = her approved May 25 wording, dashes removed.)
 
@@ -95,7 +99,7 @@ I don't just clear energy. Every session ends by empowering your own, so you lea
 
 I didn't know any of this until it happened to me. That first session shifted something in me I didn't know was off.
 
-Visual: Cream base, a single warm candle flame in soft watercolor, gentle glow rising. Personal, intimate.
+3D scene: The glowing figure seated, calm and centered, fully lit now. A single warm candle flame nearby in soft focus, gentle glow rising. Personal, intimate, peaceful.
 
 (Empowering line confirmed by Salvia directly, June 3 2026 — she clears and heals mainly, and ends each session empowering. "Replenishing" stays out, per her.)
 
@@ -106,7 +110,7 @@ Visual: Cream base, a single warm candle flame in soft watercolor, gentle glow r
 Text on slide:
 There's a reason you were led here. Why not see what comes up for you, and decide how you feel after. 🦁
 
-Visual: Cream base, teal + purple lion stamp larger and centered. Dried lavender sprig. The warmest, most inviting slide.
+3D scene: The glowing figure calm and whole, warm radiant, at ease. Teal + purple lion stamp larger and centered. A soft dried-lavender sprig in frame. The warmest, most inviting slide.
 
 ---
 
@@ -116,7 +120,7 @@ NOTE: the body below is her approved May 25 copy (kept intact, her em dashes lef
 
 3 signs the exhaustion you feel isn't even yours.
 
-You feel fine on your own, but drained after certain people. You can feel the mood in a room before anyone speaks. You come home from a normal day heavy and can't name why.
+You feel fine on your own, but drained after certain people. You can feel the mood in a room before anyone speaks. A stranger's bad mood can throw off your entire afternoon.
 
 That weight isn't tiredness. It's energy you absorbed that was never yours.
 
@@ -137,5 +141,6 @@ There's a reason you were led here. Why not see what comes up for you and decide
 
 - Hook: locked (formula #1, from `salvialion-hooks.md`).
 - Slide text: ready.
-- Visuals: NOT generated yet. Awaiting Cal's go to fire Higgsfield.
+- Visual style: HYBRID 3D-cinematic in her palette (locked June 6). Per-slide scenes written above.
+- Visuals: NOT generated yet. Plan = generate the COVER slide first as a cheap style test, get Cal's eyes on it, then build the other 7 once the look is locked.
 - Caption dash cleanup + first-line choice: pending Cal's call.

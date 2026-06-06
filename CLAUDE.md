@@ -216,7 +216,7 @@ Added 2026-04-17. Idea from Dalena.
 
 ## Status — 2026-04-19
 
-- **LIVE** at https://cal-zentara.github.io/salvia-lion/ (Cal-Zentara GitHub account)
+- **LIVE** at https://salvialion.com (custom domain, hosted on Cal-Zentara GitHub Pages; old cal-zentara.github.io/salvia-lion redirects here)
 - Pen name confirmed: **Salvia Lion** — all "Spirit Nancy" / "Nancy" references updated throughout
 - Full audit completed and fixed: mobile hamburger nav, theme persistence (localStorage), aria-labels, dead CSS removed, base.css inlined
 - About banner photo (EsponSalt.jpeg) removed — section starts directly with "Meet Salvia" eyebrow

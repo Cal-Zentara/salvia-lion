@@ -6,7 +6,7 @@
 Site for Salvia Lion (Nancy's pen name) — Reiki, tarot, energy clearing, moon ceremonies, bath salts shop. Not publicly launched yet.
 
 ## What's live
-- Site at https://cal-zentara.github.io/salvia-lion/
+- Site LIVE at https://salvialion.com (custom domain; old cal-zentara.github.io/salvia-lion redirects here)
 - 11 sections built and styled, mobile-responsive
 - Pricing set: Reiki 30min $88.88 / 60min $168.88, Tarot 30min $44 / 60min $77 (Lavender Moon collab), Pet Reiki $66.66, Sacred Hold $444 founding / $668.68 standard, bath salts $10/$24 bundle
 - 6 Stripe payment links live — one per scent ($10 each) + bundle ($24) + Sacred Hold founding ($444/mo) + Sacred Hold standard ($668.68/mo)
