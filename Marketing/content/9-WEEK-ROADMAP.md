@@ -6,6 +6,8 @@ Built: June 3, 2026
 Schedule: Monday, Wednesday, Friday (3x per week)
 Based on: 2026 research into what grows small spiritual + handmade-product accounts.
 
+> 🧠 **Your idea engine: `salvialion/content-ideas-bank.md`.** Stuck on what to post? Pull your hooks, formats, and topics from there. The #1 rule lives there too: lead with the FEELING you want to give, then pick the format. Gentle inspiration, never hustle. That rule is what keeps the feed fresh instead of factory-made.
+
 ---
 
 ## Quick view — the whole plan at a glance
