@@ -244,10 +244,17 @@ Log every post to `CONTENT-TRACKER.md` after it goes live so nothing repeats.
 
 When the posts get built, these are the locked rules. Missing one means redoing the work.
 
-**Teach carousels (all 9 Mondays):**
-- Match her existing light cream watercolor style (the look of her June 1 protection post).
-- Lion stamp is always **teal AND purple** — every carousel, no exceptions. Never charcoal, black, or one color.
-- Light version: cream/ivory background, dark charcoal text, teal + purple lion stamp.
+**Lead with the idea, then pick the style.** Start from the feeling we want her audience to have, then choose the format AND the visual that delivers it. Full rule + the style kit live in `salvialion/content-ideas-bank.md` (read it before building any post).
+
+**Visual style is a ROTATION, not one fixed look.** The 3D lion is ONE style, not mandatory. What keeps the grid cohesive is her palette + the lion stamp, not a single style.
+- Unifiers on EVERY post (these never change): cream / teal / purple palette + the small **teal AND purple lion stamp** (never charcoal, black, or one color).
+- The rotation, pick what fits the post's idea:
+  - **Cinematic 3D lion** — big emotional teach carousels (glowing teal/purple lion among gray figures, like the June 6 "3 signs" post). One option, not every post.
+  - **Found message** — candid wall sign / steamy mirror / caught-in-the-act, for inspiration + connect days.
+  - **Affirmation card** — one soft line on cream or candlelit texture, easy connect days and grid filler.
+  - **Real product** — bath salts on the bathtub edge with candles and steam, for sell posts.
+  - **Light cream watercolor** — her original June 1 look, still fine when it suits.
+- All carousel/slide text is baked into the image prompt (not added in post).
 - Source for the 6 protection topics = her own teaching handout (in `SpiritNancy/CLAUDE.md`, "PROTECTION" section, her verbatim words).
 - Frame protection as **a skill most people never learned**, never as empaths being helpless victims. (Full rule in `salvialion-content-masterclass.md`.)
 

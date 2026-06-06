@@ -2,7 +2,9 @@
 Running swipe file of carousel/post concepts Cal liked from other accounts, to adapt into Salvia's voice + look.
 Started: June 6, 2026
 
-**How to use:** Each idea below is a concept to rebuild in HER world (hybrid 3D teal/purple lion, her voice, Reiki/energy angle, soft close). Never copy word for word, adapt the bones.
+**How to use:** Each idea below is a concept to rebuild in HER world, her voice, Reiki/energy angle, soft close. Never copy word for word, adapt the bones.
+
+**Visual style is a ROTATION, not one look.** The 3D lion is ONE style, not the default. Pick the style that fits each post's idea: cinematic 3D lion / found-message candid / affirmation card / real product / cream watercolor. What keeps the grid cohesive is ALWAYS the same two things, never the style: her cream + teal + purple palette, and the small teal + purple lion STAMP on every post.
 
 **RULE ABOVE EVERYTHING — follow the IDEA, not just the format.** The visual templates (wall sign, steamy mirror, numbered signs, 3D lion) are just wrapping. What actually makes these posts work is the IDEA underneath: each one puts words to a feeling someone has carried for years but never been able to name. That naming is the moment they feel seen and hit save. So always work in this order:
 1. Start with the emotional truth we want her audience to FEEL (e.g. "the tiredness I feel isn't even mine," "I'm not too sensitive, I was just never taught to clear what I pick up").
