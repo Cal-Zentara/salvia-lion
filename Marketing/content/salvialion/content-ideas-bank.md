@@ -112,6 +112,14 @@ Other surfaces for this same format (all candid, all her voice):
 - **Written in bath salt or sand**, or on a small handwritten card beside a candle.
 - Caveat again: warm, never snarky. Skip dig-at-toxic-people lines like "clown / circus." Her lines validate feeling: "you can love people and still protect your energy" / "the heaviness was never yours to keep" / "come home to yourself."
 
+**BEST version for her — painted sign in a warm, serene, beautiful setting** (string-lit garden cafe, or a cream adobe wall with an olive tree at golden hour). The warm setting is what makes it feel like HER world, not a cold street. This is the strongest of all the found-message variants for Salvia.
+- Prompt template: `Photorealistic candid photo, warm golden hour. A hand-painted message on a textured cream adobe wall, an old olive tree and soft string lights beside it, gentle mountains in the distance, warm dusty pink and gold light. The painted message reads "[HER LINE]". Serene, real, beautiful, shallow depth of field. Square 1:1.`
+- Garden-cafe variant: `Photorealistic candid photo, evening. A hand-painted sign on a warm brick wall in a cozy string-lit garden patio with climbing ivy and lanterns, soft golden bulbs overhead. The sign reads "[HER LINE]". Inviting, warm, real, shallow depth of field. Square 1:1.`
+- Her lines that fit a wall sign: "There's a reason you were led here" / "You're allowed to come home to yourself" / "Rest is not something you earn" / "The heaviness was never yours to keep"
+
+**Caught-in-the-act variation (strongest motion):** a woman shot FROM BEHIND, long dark hair, mid-action painting/writing the message on the wall. The motion makes it feel real, and shot from behind it can read as SALVIA HERSELF, which fits the faceless-but-real plan perfectly (it's her, you never see her face).
+- Prompt template: `Photorealistic candid photo. A woman seen from behind with long dark hair, mid-action hand-painting a message on a warm textured wall in soft golden light, paint can in hand. The message reads "[HER LINE]". Faceless, never showing her face, serene and real, shallow depth of field. Square 1:1.`
+
 ## FORMAT CONVENTIONS WORTH COPYING
 - Put "swipe" cue on carousel covers so people know to swipe (drives the save).
 - Same logo/stamp in the same spot every post = instantly recognizable grid (her teal + purple lion, top corner, always).
