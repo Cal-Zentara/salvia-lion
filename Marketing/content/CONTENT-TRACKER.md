@@ -1,12 +1,12 @@
 # Salvia Lion — Content Tracker
-Last updated: June 2, 2026
+Last updated: June 6, 2026
 
 **Name rule:** Never use "Nancy" in any public content. Salvia or Salvia Lion only.
 **How to update:** Show Cal's grid or tell me what went live. I update this file same session.
 
 ---
 
-## LIVE ON INSTAGRAM (3 posts)
+## LIVE ON INSTAGRAM (4 posts)
 
 ### Post 1 — "Why salt?" | Carousel | April 29
 - Slide 1: "Why salt?" — Salt has been used for centuries to clear heavy energy from the body. Not just physically. Energetically. Your body already knows how to release. Salt just helps it remember.
@@ -30,6 +30,14 @@ Last updated: June 2, 2026
 - Slide 6: "Before any session meditation or reading state your intention: Only those of the light are allowed to work through me."
 - Slide 7: "You're also allowed to just leave. Recognizing when a room's energy is low and removing yourself from it is protection too. You don't owe anyone your energy."
 - Slide 8: Product shot with crystals and lavender. "Each bag is charged with same Reiki symbols I use in every session. Run a warm bath. Add the whole bag. Set an intention. Shop link in bio."
+
+### Post 4 — "3 signs the exhaustion you feel isn't even yours" | Carousel (8 slides) | June 6
+- FIRST post in the hybrid 3D-cinematic style (glowing teal + purple lion among gray fading figures), text baked into each slide.
+- Cover: "3 signs the exhaustion you feel isn't even yours."
+- Signs: (1) drained after certain people (2) feel the mood in a room before anyone speaks (3) a stranger's bad mood can throw off your afternoon.
+- Reveal: that weight is absorbed energy, not tiredness. Reiki: clears other people's energy. Her: clears + empowers. Close: "There's a reason you were led here."
+- Hook formula #1 (numbered signs). Caption in her voice, no dashes. Soft close, no hard CTA (teach post).
+- Source files: `salvialion/2026-06-03/what-is-reiki-carousel.md`. Was slotted for June 9, posted June 6.
 
 ---
 
