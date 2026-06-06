@@ -4,6 +4,8 @@ Started: June 6, 2026
 
 **How to use:** Each idea below is a concept to rebuild in HER world (hybrid 3D teal/purple lion, her voice, Reiki/energy angle, soft close). Never copy word for word, adapt the bones.
 
+**The core principle behind ALL of this (why it works):** every post is INSPIRATIONAL. Short, uplifting, makes the person feel something, so they save it and send it to a friend. But Salvia's inspiration is the GENTLE kind: permission and relief ("you're allowed to rest," "the heaviness was never yours"), never the hustle/grind kind ("be stronger," "outwork them," "mind over emotions"). That softer, validating lane is rarer and more her, so it stands out. Every idea in this file should pass one test: does it make a tired, sensitive person feel seen and lighter?
+
 **Name rule:** Never "Nancy" in public content. Salvia or Salvia Lion only.
 
 ---
