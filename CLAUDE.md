@@ -295,6 +295,9 @@ Ordered via RubberStamps.net. Cal paid upfront — bill Nancy $57.25.
 
 ## Bath Salts Marketing — 2026-04-30
 
+### Image Generation Rule (Always Apply)
+- **Always generate images at the LOWEST quality/resolution first** (e.g. 1k, low res) unless Cal explicitly asks for higher. Drafts are for picking the concept cheaply; only upscale/re-render at high quality (2k/4k) after Cal approves the one he wants. Do not default to high-res.
+
 ### Carousel Design Rules (Always Apply)
 - **Lion stamp color: teal and purple — every carousel, no exceptions.** Never charcoal, black, or single-color.
 - Light version carousel: cream/ivory background, dark charcoal text, teal + purple lion stamp
