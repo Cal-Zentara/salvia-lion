@@ -309,9 +309,8 @@ Ordered via RubberStamps.net. Cal paid upfront — bill Nancy $57.25.
   - Returns: Simple policy, 30 days, buyer responsible.
   - Variations: custom "Scent" with 3 options (White Tea & Lavender, Neroli & Eucalyptus, Sage & Lavender), photos linked per scent.
   - 13 tags used (reiki bath salts, energy clearing, spiritual bath, empath gift, aura cleansing, bath salt soak, epsom bath salt, cleansing ritual, spiritual gift, self care gift, lavender bath, witchy bath salt, meditation bath).
-- **TODO next session (~10 min):**
-  1. **$24 bundle listing** — copy the live listing (gear ⚙️ → Copy), change price to 24.00, retitle "Bundle of 3", set to include all 3 scents. NEED ANSWER: bundle = one of each scent, or buyer picks 3?
-  2. Shop polish (optional): lion logo as shop icon, banner, "About" story.
+- **$24 BUNDLE LISTING — LIVE (2026-06-06):** "Reiki Bath Salt Bundle of 3..." $24.00, 10 in stock. Bundle = **one of each scent** (no scent variation/picker — fixed set). Item weight 13 oz. Triple-pack photo as thumbnail. Same "Bath Salts US" shipping profile. Shop now has **2 active listings**.
+- **Shop polish done (2026-06-06):** Shop icon = SalviaLionLogo.png (green-circle lion). Tagline = "Reiki-charged bath salts, made by a Reiki Master 🦁". Shop announcement + About story added (Nancy's real Q1 voice). Banner generated via Higgsfield (2 wide 21:9 options saved at `pics/etsy-banner-option1.png` / `option2.png`) — Cal picking one to upload as Big Banner.
 - **Copy note:** Bath salts framing is **clear → heal → empower** (Nancy ends sessions empowering). She does NOT position them as "replenishing" — keep that word out of all copy.
 - **Amazon = phase 2** (heavier: cosmetic compliance, brand registry, barcodes). Do Etsy reviews first.
 
