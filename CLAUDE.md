@@ -289,8 +289,8 @@ Ordered via RubberStamps.net. Cal paid upfront — bill Nancy $57.25.
 | Tax | $3.40 |
 | Shipping | $6.95 (First-Class Mail, 5–10 business days) |
 | **Grand Total** | **$57.25** |
-| Payment | Amex *398 |
-| Ship To | Christopher D Le, 1773 S Caroleen St, Anaheim CA 92804 |
+| Payment | [redacted — on file] |
+| Ship To | [redacted — on file] |
 | Stamp image file | `pics/lion_stamp_v5.png` (pencil sketch conversion of original lion PNG) |
 
 ## Bath Salts Marketing — 2026-04-30
