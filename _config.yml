@@ -1,0 +1,14 @@
+# GitHub Pages config — keep dev/private files OUT of the published site.
+# These stay in the repo for development but are never served on salvialion.com.
+exclude:
+  - credentials.md
+  - CLAUDE.md
+  - STATUS.md
+  - make_form.py
+  - Marketing/
+  - .claude/
+  - "*.pdf"
+  - "*.py"
+  - README.md
+  - Salvia_Lion_2026_Events.pdf
+  - Salvia_Lion_Reiki_Intake_Form.pdf
