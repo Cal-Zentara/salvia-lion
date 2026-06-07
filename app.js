@@ -233,7 +233,7 @@ function initScentSelector() {
   // The triple-pack is landscape and frames fine, so leave it at the CSS default.
   function setImagePosition(src) {
     if (!productImg || !src) return;
-    const isSolo = /NeroliEucalyptus|SageLavender/i.test(src);
+    const isSolo = /NeroliEucalyptus|SageLavender|WhiteTLavender/i.test(src);
     productImg.style.objectPosition = isSolo ? 'center 65%' : '';
   }
 
